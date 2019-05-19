@@ -1,2506 +1,2494 @@
 {
-"@schemaLocation": "http://www.zillow.com/static/xsd/RegionChildren.xsd https://www.zillowstatic.com/vstatic/80d5e73/static/xsd/RegionChildren.xsd",
-"request": {
-"state": "MD",
-"city": "baltimore",
-"childtype": "neighborhood"
-},
-"message": {
-"text": "Request successfully processed",
-"code": "0"
-},
-"response": {
-"region": {
-"id": "3523",
-"latitude": "39.284707",
-"longitude": "-76.620485"
-},
-"subregiontype": "neighborhood",
-"list": {
-"count": "279",
-"region": [
-{
-"id": "163743",
-"name": "West Baltimore",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/West-Baltimore/r_163743/",
-"latitude": "39.290788",
-"longitude": "-76.646055"
-},
-{
-"id": "417113",
-"name": "Frankford",
-"zindex": {
-"@currency": "USD",
-"#text": "117000"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Frankford/r_417113/",
-"latitude": "39.328782",
-"longitude": "-76.54645"
-},
-{
-"id": "273916",
-"name": "Hamilton Area",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Hamilton-Area/r_273916/",
-"latitude": "39.349334",
-"longitude": "-76.55536"
-},
-{
-"id": "272908",
-"name": "Belair-Edison",
-"zindex": {
-"@currency": "USD",
-"#text": "78200"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Belair--Edison/r_272908/",
-"latitude": "39.32168",
-"longitude": "-76.567299"
-},
-{
-"id": "157180",
-"name": "Canton",
-"zindex": {
-"@currency": "USD",
-"#text": "304000"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Canton/r_157180/",
-"latitude": "39.281208",
-"longitude": "-76.57452"
-},
-{
-"id": "273067",
-"name": "Brooklyn",
-"zindex": {
-"@currency": "USD",
-"#text": "70800"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Brooklyn/r_273067/",
-"latitude": "39.231134",
-"longitude": "-76.605673"
-},
-{
-"id": "157423",
-"name": "Charles Village",
-"zindex": {
-"@currency": "USD",
-"#text": "225400"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Charles-Village/r_157423/",
-"latitude": "39.323396",
-"longitude": "-76.616419"
-},
-{
-"id": "273831",
-"name": "Glen",
-"zindex": {
-"@currency": "USD",
-"#text": "138400"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Glen/r_273831/",
-"latitude": "39.356425",
-"longitude": "-76.690939"
-},
-{
-"id": "273235",
-"name": "Cheswolde",
-"zindex": {
-"@currency": "USD",
-"#text": "228800"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Cheswolde/r_273235/",
-"latitude": "39.366822",
-"longitude": "-76.679654"
-},
-{
-"id": "416358",
-"name": "Harford-Echodale - Perring Parkway",
-"zindex": {
-"@currency": "USD",
-"#text": "149900"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Harford--Echodale----Perring-Parkway/r_416358/",
-"latitude": "39.361173",
-"longitude": "-76.562516"
-},
-{
-"id": "269907",
-"name": "Sandtown-Winchester",
-"zindex": {
-"@currency": "USD",
-"#text": "46100"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Sandtown--Winchester/r_269907/",
-"latitude": "39.30442",
-"longitude": "-76.641319"
-},
-{
-"id": "276354",
-"name": "Greenmount East",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Greenmount-East/r_276354/",
-"latitude": "39.306875",
-"longitude": "-76.598349"
-},
-{
-"id": "417114",
-"name": "Coldstream Homestead Montebello",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Coldstream-Homestead-Montebello/r_417114/",
-"latitude": "39.322568",
-"longitude": "-76.595759"
-},
-{
-"id": "157467",
-"name": "Cherry Hill",
-"zindex": {
-"@currency": "USD",
-"#text": "71100"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Cherry-Hill/r_157467/",
-"latitude": "39.249113",
-"longitude": "-76.629545"
-},
-{
-"id": "269927",
-"name": "Waltherson",
-"zindex": {
-"@currency": "USD",
-"#text": "143900"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Waltherson/r_269927/",
-"latitude": "39.342752",
-"longitude": "-76.556618"
-},
-{
-"id": "269757",
-"name": "Patterson Park",
-"zindex": {
-"@currency": "USD",
-"#text": "188400"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Patterson-Park/r_269757/",
-"latitude": "39.290475",
-"longitude": "-76.57699"
-},
-{
-"id": "269817",
-"name": "Glenham-Belford",
-"zindex": {
-"@currency": "USD",
-"#text": "136600"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Glenham--Belford/r_269817/",
-"latitude": "39.349543",
-"longitude": "-76.548117"
-},
-{
-"id": "159670",
-"name": "Howard Park",
-"zindex": {
-"@currency": "USD",
-"#text": "151500"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Howard-Park/r_159670/",
-"latitude": "39.329853",
-"longitude": "-76.70039"
-},
-{
-"id": "275152",
-"name": "Reservoir Hill",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Reservoir-Hill/r_275152/",
-"latitude": "39.313774",
-"longitude": "-76.633216"
-},
-{
-"id": "273920",
-"name": "Hampden",
-"zindex": {
-"@currency": "USD",
-"#text": "199900"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Hampden/r_273920/",
-"latitude": "39.32997",
-"longitude": "-76.634933"
-},
-{
-"id": "276506",
-"name": "Central Park Heights",
-"zindex": {
-"@currency": "USD",
-"#text": "53900"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Central-Park-Heights/r_276506/",
-"latitude": "39.342511",
-"longitude": "-76.670879"
-},
-{
-"id": "275829",
-"name": "Upper Northwood",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Upper-Northwood/r_275829/",
-"latitude": "39.359758",
-"longitude": "-76.585972"
-},
-{
-"id": "275198",
-"name": "Riverside",
-"zindex": {
-"@currency": "USD",
-"#text": "300600"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Riverside/r_275198/",
-"latitude": "39.272446",
-"longitude": "-76.604849"
-},
-{
-"id": "158273",
-"name": "Edmondson Village",
-"zindex": {
-"@currency": "USD",
-"#text": "81300"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Edmondson-Village/r_158273/",
-"latitude": "39.298306",
-"longitude": "-76.68011"
-},
-{
-"id": "275228",
-"name": "Roland Park",
-"zindex": {
-"@currency": "USD",
-"#text": "425000"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Roland-Park/r_275228/",
-"latitude": "39.348883",
-"longitude": "-76.634927"
-},
-{
-"id": "159820",
-"name": "Irvington",
-"zindex": {
-"@currency": "USD",
-"#text": "94300"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Irvington/r_159820/",
-"latitude": "39.278198",
-"longitude": "-76.683023"
-},
-{
-"id": "269766",
-"name": "Bolton Hill",
-"zindex": {
-"@currency": "USD",
-"#text": "353500"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Bolton-Hill/r_269766/",
-"latitude": "39.30712",
-"longitude": "-76.627034"
-},
-{
-"id": "160965",
-"name": "Mount Vernon",
-"zindex": {
-"@currency": "USD",
-"#text": "194800"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Mount-Vernon/r_160965/",
-"latitude": "39.298137",
-"longitude": "-76.616101"
-},
-{
-"id": "269885",
-"name": "Penn-Fallsway",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Penn--Fallsway/r_269885/",
-"latitude": "39.297006",
-"longitude": "-76.608408"
-},
-{
-"id": "269870",
-"name": "New Northwood",
-"zindex": {
-"@currency": "USD",
-"#text": "115100"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/New-Northwood/r_269870/",
-"latitude": "39.348085",
-"longitude": "-76.594689"
-},
-{
-"id": "269925",
-"name": "Upton",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Upton/r_269925/",
-"latitude": "39.30146",
-"longitude": "-76.630899"
-},
-{
-"id": "269861",
-"name": "Mid-Town Belvedere",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Mid--Town-Belvedere/r_269861/",
-"latitude": "39.304429",
-"longitude": "-76.616105"
-},
-{
-"id": "158452",
-"name": "Fallstaff",
-"zindex": {
-"@currency": "USD",
-"#text": "122500"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Fallstaff/r_158452/",
-"latitude": "39.365082",
-"longitude": "-76.705628"
-},
-{
-"id": "22505",
-"name": "Loch Raven",
-"zindex": {
-"@currency": "USD",
-"#text": "109600"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Loch-Raven/r_22505/",
-"latitude": "39.363278",
-"longitude": "-76.581499"
-},
-{
-"id": "269806",
-"name": "Ednor Gardens-Lakeside",
-"zindex": {
-"@currency": "USD",
-"#text": "139400"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Ednor-Gardens--Lakeside/r_269806/",
-"latitude": "39.334215",
-"longitude": "-76.597534"
-},
-{
-"id": "272904",
-"name": "Beechfield",
-"zindex": {
-"@currency": "USD",
-"#text": "102900"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Beechfield/r_272904/",
-"latitude": "39.275519",
-"longitude": "-76.701421"
-},
-{
-"id": "160124",
-"name": "Lakeland",
-"zindex": {
-"@currency": "USD",
-"#text": "68700"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Lakeland/r_160124/",
-"latitude": "39.254628",
-"longitude": "-76.648703"
-},
-{
-"id": "269791",
-"name": "Cross Country",
-"zindex": {
-"@currency": "USD",
-"#text": "272500"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Cross-Country/r_269791/",
-"latitude": "39.365512",
-"longitude": "-76.700558"
-},
-{
-"id": "274572",
-"name": "Mondawin",
-"zindex": {
-"@currency": "USD",
-"#text": "42900"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Mondawin/r_274572/",
-"latitude": "39.314425",
-"longitude": "-76.653716"
-},
-{
-"id": "269827",
-"name": "Harlem Park",
-"zindex": {
-"@currency": "USD",
-"#text": "48600"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Harlem-Park/r_269827/",
-"latitude": "39.29608",
-"longitude": "-76.639433"
-},
-{
-"id": "158479",
-"name": "Fells Point",
-"zindex": {
-"@currency": "USD",
-"#text": "251700"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Fells-Point/r_158479/",
-"latitude": "39.28398",
-"longitude": "-76.593703"
-},
-{
-"id": "269756",
-"name": "Allendale",
-"zindex": {
-"@currency": "USD",
-"#text": "68200"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Allendale/r_269756/",
-"latitude": "39.28913",
-"longitude": "-76.680899"
-},
-{
-"id": "276020",
-"name": "Westgate",
-"zindex": {
-"@currency": "USD",
-"#text": "160400"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Westgate/r_276020/",
-"latitude": "39.285089",
-"longitude": "-76.704605"
-},
-{
-"id": "269880",
-"name": "Park Circle",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Park-Circle/r_269880/",
-"latitude": "39.328786",
-"longitude": "-76.659745"
-},
-{
-"id": "269875",
-"name": "Oliver",
-"zindex": {
-"@currency": "USD",
-"#text": "41500"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Oliver/r_269875/",
-"latitude": "39.308059",
-"longitude": "-76.599289"
-},
-{
-"id": "276430",
-"name": "Lower Northwood",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Lower-Northwood/r_276430/",
-"latitude": "39.341673",
-"longitude": "-76.586911"
-},
-{
-"id": "273882",
-"name": "Mount Washington",
-"zindex": {
-"@currency": "USD",
-"#text": "301700"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Mount-Washington/r_273882/",
-"latitude": "39.363536",
-"longitude": "-76.665785"
-},
-{
-"id": "269856",
-"name": "McElderry Park",
-"zindex": {
-"@currency": "USD",
-"#text": "76000"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/McElderry-Park/r_269856/",
-"latitude": "39.296775",
-"longitude": "-76.580734"
-},
-{
-"id": "159130",
-"name": "Guilford",
-"zindex": {
-"@currency": "USD",
-"#text": "613900"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Guilford/r_159130/",
-"latitude": "39.338244",
-"longitude": "-76.617909"
-},
-{
-"id": "416357",
-"name": "Glen Oaks",
-"zindex": {
-"@currency": "USD",
-"#text": "125000"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Glen-Oaks/r_416357/",
-"latitude": "39.364061",
-"longitude": "-76.596633"
-},
-{
-"id": "160898",
-"name": "Morrell Park",
-"zindex": {
-"@currency": "USD",
-"#text": "80500"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Morrell-Park/r_160898/",
-"latitude": "39.266309",
-"longitude": "-76.657703"
-},
-{
-"id": "269770",
-"name": "Broadway East",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Broadway-East/r_269770/",
-"latitude": "39.308505",
-"longitude": "-76.588814"
-},
-{
-"id": "160182",
-"name": "Lauraville",
-"zindex": {
-"@currency": "USD",
-"#text": "163700"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Lauraville/r_160182/",
-"latitude": "39.345499",
-"longitude": "-76.572495"
-},
-{
-"id": "31145",
-"name": "Curtis Bay",
-"zindex": {
-"@currency": "USD",
-"#text": "63100"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Curtis-Bay/r_31145/",
-"latitude": "39.207978",
-"longitude": "-76.554688"
-},
-{
-"id": "269779",
-"name": "Carrollton Ridge",
-"zindex": {
-"@currency": "USD",
-"#text": "41700"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Carrollton-Ridge/r_269779/",
-"latitude": "39.282552",
-"longitude": "-76.649382"
-},
-{
-"id": "269924",
-"name": "Upper Fells Point",
-"zindex": {
-"@currency": "USD",
-"#text": "252300"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Upper-Fells-Point/r_269924/",
-"latitude": "39.28814",
-"longitude": "-76.588999"
-},
-{
-"id": "269797",
-"name": "Downtown",
-"zindex": {
-"@currency": "USD",
-"#text": "234700"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Downtown/r_269797/",
-"latitude": "39.29131",
-"longitude": "-76.614274"
-},
-{
-"id": "159490",
-"name": "Highlandtown",
-"zindex": {
-"@currency": "USD",
-"#text": "202300"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Highlandtown/r_159490/",
-"latitude": "39.288455",
-"longitude": "-76.567774"
-},
-{
-"id": "269883",
-"name": "Pen Lucy",
-"zindex": {
-"@currency": "USD",
-"#text": "89200"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Pen-Lucy/r_269883/",
-"latitude": "39.339919",
-"longitude": "-76.604661"
-},
-{
-"id": "272944",
-"name": "Berea",
-"zindex": {
-"@currency": "USD",
-"#text": "49900"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Berea/r_272944/",
-"latitude": "39.3096",
-"longitude": "-76.578484"
-},
-{
-"id": "159624",
-"name": "Homeland",
-"zindex": {
-"@currency": "USD",
-"#text": "556700"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Homeland/r_159624/",
-"latitude": "39.35999",
-"longitude": "-76.619381"
-},
-{
-"id": "269930",
-"name": "Westfield",
-"zindex": {
-"@currency": "USD",
-"#text": "155900"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Westfield/r_269930/",
-"latitude": "39.359496",
-"longitude": "-76.550715"
-},
-{
-"id": "269929",
-"name": "Washington Village",
-"zindex": {
-"@currency": "USD",
-"#text": "114200"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Washington-Village/r_269929/",
-"latitude": "39.280795",
-"longitude": "-76.631502"
-},
-{
-"id": "416351",
-"name": "Greenspring",
-"zindex": {
-"@currency": "USD",
-"#text": "54600"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Greenspring/r_416351/",
-"latitude": "39.336534",
-"longitude": "-76.660644"
-},
-{
-"id": "269763",
-"name": "Better Waverly",
-"zindex": {
-"@currency": "USD",
-"#text": "72300"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Better-Waverly/r_269763/",
-"latitude": "39.32335",
-"longitude": "-76.603644"
-},
-{
-"id": "416686",
-"name": "Penrose-Fayette Street Outreach",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Penrose--Fayette-Street-Outreach/r_416686/",
-"latitude": "39.291063",
-"longitude": "-76.658357"
-},
-{
-"id": "159773",
-"name": "Idlewood",
-"zindex": {
-"@currency": "USD",
-"#text": "117100"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Idlewood/r_159773/",
-"latitude": "39.369082",
-"longitude": "-76.588401"
-},
-{
-"id": "416169",
-"name": "Ellwood Park-Monument",
-"zindex": {
-"@currency": "USD",
-"#text": "65200"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Ellwood-Park--Monument/r_416169/",
-"latitude": "39.297055",
-"longitude": "-76.571871"
-},
-{
-"id": "157365",
-"name": "Cedonia",
-"zindex": {
-"@currency": "USD",
-"#text": "98800"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Cedonia/r_157365/",
-"latitude": "39.326859",
-"longitude": "-76.533564"
-},
-{
-"id": "269819",
-"name": "Greektown",
-"zindex": {
-"@currency": "USD",
-"#text": "119100"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Greektown/r_269819/",
-"latitude": "39.286349",
-"longitude": "-76.552579"
-},
-{
-"id": "269836",
-"name": "Inner Harbor",
-"zindex": {
-"@currency": "USD",
-"#text": "266600"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Inner-Harbor/r_269836/",
-"latitude": "39.28123",
-"longitude": "-76.610791"
-},
-{
-"id": "269920",
-"name": "Tuscany-Canterbury",
-"zindex": {
-"@currency": "USD",
-"#text": "149900"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Tuscany--Canterbury/r_269920/",
-"latitude": "39.337369",
-"longitude": "-76.621893"
-},
-{
-"id": "269813",
-"name": "Franklin Square",
-"zindex": {
-"@currency": "USD",
-"#text": "65200"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Franklin-Square/r_269813/",
-"latitude": "39.29003",
-"longitude": "-76.642619"
-},
-{
-"id": "163753",
-"name": "West Forest Park",
-"zindex": {
-"@currency": "USD",
-"#text": "116100"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/West-Forest-Park/r_163753/",
-"latitude": "39.31842",
-"longitude": "-76.694853"
-},
-{
-"id": "417117",
-"name": "Ashburton",
-"zindex": {
-"@currency": "USD",
-"#text": "150600"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Ashburton/r_417117/",
-"latitude": "39.329463",
-"longitude": "-76.671424"
-},
-{
-"id": "269888",
-"name": "Perring Loch",
-"zindex": {
-"@currency": "USD",
-"#text": "130400"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Perring-Loch/r_269888/",
-"latitude": "39.352143",
-"longitude": "-76.583442"
-},
-{
-"id": "269803",
-"name": "East Baltimore Midway",
-"zindex": {
-"@currency": "USD",
-"#text": "45300"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/East-Baltimore-Midway/r_269803/",
-"latitude": "39.314898",
-"longitude": "-76.602231"
-},
-{
-"id": "273712",
-"name": "Federal Hill",
-"zindex": {
-"@currency": "USD",
-"#text": "325900"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Federal-Hill/r_273712/",
-"latitude": "39.277814",
-"longitude": "-76.610979"
-},
-{
-"id": "269780",
-"name": "Cedmont",
-"zindex": {
-"@currency": "USD",
-"#text": "142400"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Cedmont/r_269780/",
-"latitude": "39.348546",
-"longitude": "-76.53674"
-},
-{
-"id": "269908",
-"name": "SBIC",
-"zindex": {
-"@currency": "USD",
-"#text": "293900"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/SBIC/r_269908/",
-"latitude": "39.270991",
-"longitude": "-76.614239"
-},
-{
-"id": "48366",
-"name": "Waverly",
-"zindex": {
-"@currency": "USD",
-"#text": "89300"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Waverly/r_48366/",
-"latitude": "39.33239",
-"longitude": "-76.606513"
-},
-{
-"id": "276202",
-"name": "Bayview Area",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Bayview-Area/r_276202/",
-"latitude": "39.286432",
-"longitude": "-76.5416"
-},
-{
-"id": "269936",
-"name": "Woodmere",
-"zindex": {
-"@currency": "USD",
-"#text": "88100"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Woodmere/r_269936/",
-"latitude": "39.345919",
-"longitude": "-76.689515"
-},
-{
-"id": "269891",
-"name": "Poppleton",
-"zindex": {
-"@currency": "USD",
-"#text": "82200"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Poppleton/r_269891/",
-"latitude": "39.29109",
-"longitude": "-76.632889"
-},
-{
-"id": "269928",
-"name": "Washington Hill",
-"zindex": {
-"@currency": "USD",
-"#text": "209300"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Washington-Hill/r_269928/",
-"latitude": "39.29079",
-"longitude": "-76.594374"
-},
-{
-"id": "274058",
-"name": "Middle East",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Middle-East/r_274058/",
-"latitude": "39.299395",
-"longitude": "-76.589678"
-},
-{
-"id": "416685",
-"name": "Bridgeview - Greenlawn",
-"zindex": {
-"@currency": "USD",
-"#text": "63700"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Bridgeview----Greenlawn/r_416685/",
-"latitude": "39.301444",
-"longitude": "-76.654286"
-},
-{
-"id": "269853",
-"name": "Madison Park",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Madison-Park/r_269853/",
-"latitude": "39.30477",
-"longitude": "-76.627929"
-},
-{
-"id": "156305",
-"name": "Armistead Gardens",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Armistead-Gardens/r_156305/",
-"latitude": "39.308389",
-"longitude": "-76.552129"
-},
-{
-"id": "269871",
-"name": "North Harford Road",
-"zindex": {
-"@currency": "USD",
-"#text": "151400"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/North-Harford-Road/r_269871/",
-"latitude": "39.367811",
-"longitude": "-76.547989"
-},
-{
-"id": "163581",
-"name": "Violetville",
-"zindex": {
-"@currency": "USD",
-"#text": "115500"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Violetville/r_163581/",
-"latitude": "39.265724",
-"longitude": "-76.674482"
-},
-{
-"id": "269796",
-"name": "Dolfield",
-"zindex": {
-"@currency": "USD",
-"#text": "117100"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Dolfield/r_269796/",
-"latitude": "39.338204",
-"longitude": "-76.679275"
-},
-{
-"id": "274896",
-"name": "Old Town",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Old-Town/r_274896/",
-"latitude": "39.298144",
-"longitude": "-76.603267"
-},
-{
-"id": "269857",
-"name": "Medfield",
-"zindex": {
-"@currency": "USD",
-"#text": "155200"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Medfield/r_269857/",
-"latitude": "39.340213",
-"longitude": "-76.642443"
-},
-{
-"id": "269940",
-"name": "Yale-Heights",
-"zindex": {
-"@currency": "USD",
-"#text": "89900"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Yale--Heights/r_269940/",
-"latitude": "39.275947",
-"longitude": "-76.689971"
-},
-{
-"id": "416170",
-"name": "Gwynns Falls - Leakin Park",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Gwynns-Falls----Leakin-Park/r_416170/",
-"latitude": "39.303619",
-"longitude": "-76.684424"
-},
-{
-"id": "269867",
-"name": "Morgan State University",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Morgan-State-University/r_269867/",
-"latitude": "39.346763",
-"longitude": "-76.580471"
-},
-{
-"id": "269850",
-"name": "Locust Point Industrial Area",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Locust-Point-Industrial-Area/r_269850/",
-"latitude": "39.268713",
-"longitude": "-76.592867"
-},
-{
-"id": "269860",
-"name": "Mid-Govans",
-"zindex": {
-"@currency": "USD",
-"#text": "110900"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Mid--Govans/r_269860/",
-"latitude": "39.359515",
-"longitude": "-76.605614"
-},
-{
-"id": "269794",
-"name": "Cylburn",
-"zindex": {
-"@currency": "USD",
-"#text": "119700"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Cylburn/r_269794/",
-"latitude": "39.34749",
-"longitude": "-76.664026"
-},
-{
-"id": "269896",
-"name": "Reisterstown Station",
-"zindex": {
-"@currency": "USD",
-"#text": "110600"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Reisterstown-Station/r_269896/",
-"latitude": "39.353525",
-"longitude": "-76.701604"
-},
-{
-"id": "416356",
-"name": "Barclay",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Barclay/r_416356/",
-"latitude": "39.31471",
-"longitude": "-76.612399"
-},
-{
-"id": "163763",
-"name": "West Hills",
-"zindex": {
-"@currency": "USD",
-"#text": "111900"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/West-Hills/r_163763/",
-"latitude": "39.297465",
-"longitude": "-76.703012"
-},
-{
-"id": "416693",
-"name": "Coppin Heights - Ash-Co-East",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Coppin-Heights----Ash--Co--East/r_416693/",
-"latitude": "39.306521",
-"longitude": "-76.657815"
-},
-{
-"id": "269881",
-"name": "Parklane",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Parklane/r_269881/",
-"latitude": "39.34273",
-"longitude": "-76.662444"
-},
-{
-"id": "269825",
-"name": "Hanlon-Longwood",
-"zindex": {
-"@currency": "USD",
-"#text": "94400"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Hanlon--Longwood/r_269825/",
-"latitude": "39.31918",
-"longitude": "-76.669179"
-},
-{
-"id": "269862",
-"name": "Midtown-Edmondson",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Midtown--Edmondson/r_269862/",
-"latitude": "39.297512",
-"longitude": "-76.650949"
-},
-{
-"id": "269845",
-"name": "Lake Walker",
-"zindex": {
-"@currency": "USD",
-"#text": "191700"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Lake-Walker/r_269845/",
-"latitude": "39.369559",
-"longitude": "-76.603517"
-},
-{
-"id": "269835",
-"name": "Hopkins Bayview",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Hopkins-Bayview/r_269835/",
-"latitude": "39.29171",
-"longitude": "-76.543244"
-},
-{
-"id": "274393",
-"name": "Madison - Eastend",
-"zindex": {
-"@currency": "USD",
-"#text": "38000"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Madison----Eastend/r_274393/",
-"latitude": "39.300739",
-"longitude": "-76.576911"
-},
-{
-"id": "43748",
-"name": "Walbrook",
-"zindex": {
-"@currency": "USD",
-"#text": "73400"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Walbrook/r_43748/",
-"latitude": "39.311676",
-"longitude": "-76.667703"
-},
-{
-"id": "273883",
-"name": "Rosemont",
-"zindex": {
-"@currency": "USD",
-"#text": "61100"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Rosemont/r_273883/",
-"latitude": "39.304315",
-"longitude": "-76.670061"
-},
-{
-"id": "269838",
-"name": "Johnston Square",
-"zindex": {
-"@currency": "USD",
-"#text": "63300"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Johnston-Square/r_269838/",
-"latitude": "39.303784",
-"longitude": "-76.605679"
-},
-{
-"id": "10171",
-"name": "Arlington",
-"zindex": {
-"@currency": "USD",
-"#text": "61400"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Arlington/r_10171/",
-"latitude": "39.348361",
-"longitude": "-76.682194"
-},
-{
-"id": "269863",
-"name": "Mill Hill",
-"zindex": {
-"@currency": "USD",
-"#text": "42900"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Mill-Hill/r_269863/",
-"latitude": "39.279681",
-"longitude": "-76.657089"
-},
-{
-"id": "269912",
-"name": "Shipley Hill",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Shipley-Hill/r_269912/",
-"latitude": "39.28587",
-"longitude": "-76.656915"
-},
-{
-"id": "273241",
-"name": "Chinquapin Park-Belvedere",
-"zindex": {
-"@currency": "USD",
-"#text": "133000"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Chinquapin-Park--Belvedere/r_273241/",
-"latitude": "39.36352",
-"longitude": "-76.604173"
-},
-{
-"id": "161940",
-"name": "Ramblewood",
-"zindex": {
-"@currency": "USD",
-"#text": "120200"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Ramblewood/r_161940/",
-"latitude": "39.363433",
-"longitude": "-76.589789"
-},
-{
-"id": "269937",
-"name": "Woodring",
-"zindex": {
-"@currency": "USD",
-"#text": "139100"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Woodring/r_269937/",
-"latitude": "39.362946",
-"longitude": "-76.544169"
-},
-{
-"id": "269887",
-"name": "Perkins Homes",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Perkins-Homes/r_269887/",
-"latitude": "39.287845",
-"longitude": "-76.596524"
-},
-{
-"id": "269884",
-"name": "Penn North",
-"zindex": {
-"@currency": "USD",
-"#text": "44900"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Penn-North/r_269884/",
-"latitude": "39.312335",
-"longitude": "-76.641744"
-},
-{
-"id": "269905",
-"name": "Saint Josephs",
-"zindex": {
-"@currency": "USD",
-"#text": "71900"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Saint-Josephs/r_269905/",
-"latitude": "39.285465",
-"longitude": "-76.676391"
-},
-{
-"id": "156432",
-"name": "Baltimore Highlands",
-"zindex": {
-"@currency": "USD",
-"#text": "85400"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Baltimore-Highlands/r_156432/",
-"latitude": "39.293661",
-"longitude": "-76.566114"
-},
-{
-"id": "275107",
-"name": "Pulaski Industrial Area",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Pulaski-Industrial-Area/r_275107/",
-"latitude": "39.302036",
-"longitude": "-76.543312"
-},
-{
-"id": "269773",
-"name": "Butcher's Hill",
-"zindex": {
-"@currency": "USD",
-"#text": "254400"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Butcher's-Hill/r_269773/",
-"latitude": "39.291895",
-"longitude": "-76.586914"
-},
-{
-"id": "416687",
-"name": "New Southwest - Mount Clare",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/New-Southwest----Mount-Clare/r_416687/",
-"latitude": "39.282803",
-"longitude": "-76.641376"
-},
-{
-"id": "269897",
-"name": "Remington",
-"zindex": {
-"@currency": "USD",
-"#text": "116400"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Remington/r_269897/",
-"latitude": "39.319837",
-"longitude": "-76.623604"
-},
-{
-"id": "416694",
-"name": "Harwood",
-"zindex": {
-"@currency": "USD",
-"#text": "121000"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Harwood/r_416694/",
-"latitude": "39.32076",
-"longitude": "-76.61125"
-},
-{
-"id": "269774",
-"name": "Callaway-Garrison",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Callaway--Garrison/r_269774/",
-"latitude": "39.331017",
-"longitude": "-76.679834"
-},
-{
-"id": "416167",
-"name": "Parkside",
-"zindex": {
-"@currency": "USD",
-"#text": "84600"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Parkside/r_416167/",
-"latitude": "39.3223",
-"longitude": "-76.557114"
-},
-{
-"id": "416684",
-"name": "Carrol-South Hilton",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Carrol--South-Hilton/r_416684/",
-"latitude": "39.28696",
-"longitude": "-76.665825"
-},
-{
-"id": "163742",
-"name": "West Arlington",
-"zindex": {
-"@currency": "USD",
-"#text": "154600"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/West-Arlington/r_163742/",
-"latitude": "39.33953",
-"longitude": "-76.690272"
-},
-{
-"id": "269816",
-"name": "Gay Street",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Gay-Street/r_269816/",
-"latitude": "39.301265",
-"longitude": "-76.596794"
-},
-{
-"id": "269834",
-"name": "Hollins Market",
-"zindex": {
-"@currency": "USD",
-"#text": "84000"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Hollins-Market/r_269834/",
-"latitude": "39.287355",
-"longitude": "-76.632909"
-},
-{
-"id": "269822",
-"name": "Grove Park",
-"zindex": {
-"@currency": "USD",
-"#text": "126300"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Grove-Park/r_269822/",
-"latitude": "39.340068",
-"longitude": "-76.702023"
-},
-{
-"id": "269818",
-"name": "Graceland Park",
-"zindex": {
-"@currency": "USD",
-"#text": "118400"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Graceland-Park/r_269818/",
-"latitude": "39.278927",
-"longitude": "-76.53509"
-},
-{
-"id": "416354",
-"name": "Loyola - Notre Dame",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Loyola----Notre-Dame/r_416354/",
-"latitude": "39.349709",
-"longitude": "-76.619336"
-},
-{
-"id": "417116",
-"name": "Dorchester",
-"zindex": {
-"@currency": "USD",
-"#text": "136100"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Dorchester/r_417116/",
-"latitude": "39.33167",
-"longitude": "-76.686821"
-},
-{
-"id": "269798",
-"name": "Druid Heights",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Druid-Heights/r_269798/",
-"latitude": "39.30777",
-"longitude": "-76.63758"
-},
-{
-"id": "269814",
-"name": "Franklintown Road",
-"zindex": {
-"@currency": "USD",
-"#text": "49700"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Franklintown-Road/r_269814/",
-"latitude": "39.297811",
-"longitude": "-76.667778"
-},
-{
-"id": "269916",
-"name": "Stonewood-Pentwood-Winston",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Stonewood--Pentwood--Winston/r_269916/",
-"latitude": "39.348624",
-"longitude": "-76.588192"
-},
-{
-"id": "269934",
-"name": "Woodbourne Heights",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Woodbourne-Heights/r_269934/",
-"latitude": "39.357434",
-"longitude": "-76.592338"
-},
-{
-"id": "416352",
-"name": "North Roland Park - Poplar Hill",
-"zindex": {
-"@currency": "USD",
-"#text": "528100"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/North-Roland-Park----Poplar-Hill/r_416352/",
-"latitude": "39.366816",
-"longitude": "-76.638821"
-},
-{
-"id": "416690",
-"name": "Carroll - Camden Industrial Area",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Carroll----Camden-Industrial-Area/r_416690/",
-"latitude": "39.273114",
-"longitude": "-76.634214"
-},
-{
-"id": "269902",
-"name": "Rosemont East",
-"zindex": {
-"@currency": "USD",
-"#text": "135700"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Rosemont-East/r_269902/",
-"latitude": "39.355729",
-"longitude": "-76.537305"
-},
-{
-"id": "269877",
-"name": "Original Northwood",
-"zindex": {
-"@currency": "USD",
-"#text": "173900"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Original-Northwood/r_269877/",
-"latitude": "39.339529",
-"longitude": "-76.596734"
-},
-{
-"id": "158580",
-"name": "Forest Park",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Forest-Park/r_158580/",
-"latitude": "39.323858",
-"longitude": "-76.676999"
-},
-{
-"id": "273853",
-"name": "Govans",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Govans/r_273853/",
-"latitude": "39.328499",
-"longitude": "-76.595094"
-},
-{
-"id": "269829",
-"name": "Heritage Crossing",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Heritage-Crossing/r_269829/",
-"latitude": "39.296559",
-"longitude": "-76.628214"
-},
-{
-"id": "269878",
-"name": "Otterbein",
-"zindex": {
-"@currency": "USD",
-"#text": "331200"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Otterbein/r_269878/",
-"latitude": "39.281666",
-"longitude": "-76.615914"
-},
-{
-"id": "269910",
-"name": "Seton Hill",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Seton-Hill/r_269910/",
-"latitude": "39.295432",
-"longitude": "-76.624459"
-},
-{
-"id": "269764",
-"name": "Biddle Street",
-"zindex": {
-"@currency": "USD",
-"#text": "32700"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Biddle-Street/r_269764/",
-"latitude": "39.303789",
-"longitude": "-76.579187"
-},
-{
-"id": "417226",
-"name": "Parkview - Woodbrook",
-"zindex": {
-"@currency": "USD",
-"#text": "65000"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Parkview----Woodbrook/r_417226/",
-"latitude": "39.316758",
-"longitude": "-76.647941"
-},
-{
-"id": "159951",
-"name": "Kenilworth Park",
-"zindex": {
-"@currency": "USD",
-"#text": "115700"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Kenilworth-Park/r_159951/",
-"latitude": "39.34994",
-"longitude": "-76.601179"
-},
-{
-"id": "269781",
-"name": "Central Forest Park",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Central-Forest-Park/r_269781/",
-"latitude": "39.326865",
-"longitude": "-76.688"
-},
-{
-"id": "269868",
-"name": "Mosher",
-"zindex": {
-"@currency": "USD",
-"#text": "38300"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Mosher/r_269868/",
-"latitude": "39.297445",
-"longitude": "-76.662284"
-},
-{
-"id": "269831",
-"name": "Hillen",
-"zindex": {
-"@currency": "USD",
-"#text": "120700"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Hillen/r_269831/",
-"latitude": "39.341895",
-"longitude": "-76.590054"
-},
-{
-"id": "161389",
-"name": "Orangeville",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Orangeville/r_161389/",
-"latitude": "39.302335",
-"longitude": "-76.559224"
-},
-{
-"id": "269918",
-"name": "Towanda-Grantley",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Towanda--Grantley/r_269918/",
-"latitude": "39.335665",
-"longitude": "-76.668449"
-},
-{
-"id": "164061",
-"name": "Woodberry",
-"zindex": {
-"@currency": "USD",
-"#text": "149000"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Woodberry/r_164061/",
-"latitude": "39.337389",
-"longitude": "-76.650079"
-},
-{
-"id": "276108",
-"name": "Windsor Hills",
-"zindex": {
-"@currency": "USD",
-"#text": "135400"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Windsor-Hills/r_276108/",
-"latitude": "39.31715",
-"longitude": "-76.686604"
-},
-{
-"id": "269815",
-"name": "Garwyn Oaks",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Garwyn-Oaks/r_269815/",
-"latitude": "39.31818",
-"longitude": "-76.679249"
-},
-{
-"id": "163146",
-"name": "Ten Hills",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Ten-Hills/r_163146/",
-"latitude": "39.287208",
-"longitude": "-76.701654"
-},
-{
-"id": "269771",
-"name": "Broening Manor",
-"zindex": {
-"@currency": "USD",
-"#text": "77700"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Broening-Manor/r_269771/",
-"latitude": "39.274826",
-"longitude": "-76.537344"
-},
-{
-"id": "269783",
-"name": "Charles North",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Charles-North/r_269783/",
-"latitude": "39.310247",
-"longitude": "-76.617611"
-},
-{
-"id": "269852",
-"name": "Lucille Park",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Lucille-Park/r_269852/",
-"latitude": "39.33946",
-"longitude": "-76.676147"
-},
-{
-"id": "269802",
-"name": "East Arlington",
-"zindex": {
-"@currency": "USD",
-"#text": "108300"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/East-Arlington/r_269802/",
-"latitude": "39.331186",
-"longitude": "-76.668912"
-},
-{
-"id": "269932",
-"name": "Wilson Park",
-"zindex": {
-"@currency": "USD",
-"#text": "81400"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Wilson-Park/r_269932/",
-"latitude": "39.343651",
-"longitude": "-76.604604"
-},
-{
-"id": "269938",
-"name": "Wyman Park",
-"zindex": {
-"@currency": "USD",
-"#text": "232900"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Wyman-Park/r_269938/",
-"latitude": "39.331683",
-"longitude": "-76.625764"
-},
-{
-"id": "269812",
-"name": "Four by Four",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Four-by-Four/r_269812/",
-"latitude": "39.315682",
-"longitude": "-76.577514"
-},
-{
-"id": "269800",
-"name": "Dunbar-Broadway",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Dunbar--Broadway/r_269800/",
-"latitude": "39.29558",
-"longitude": "-76.594739"
-},
-{
-"id": "269804",
-"name": "Easterwood",
-"zindex": {
-"@currency": "USD",
-"#text": "46400"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Easterwood/r_269804/",
-"latitude": "39.30748",
-"longitude": "-76.650276"
-},
-{
-"id": "269839",
-"name": "Jones Falls Area",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Jones-Falls-Area/r_269839/",
-"latitude": "39.320635",
-"longitude": "-76.631624"
-},
-{
-"id": "163817",
-"name": "Westport",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Westport/r_163817/",
-"latitude": "39.261682",
-"longitude": "-76.634568"
-},
-{
-"id": "269882",
-"name": "Patterson Place",
-"zindex": {
-"@currency": "USD",
-"#text": "172700"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Patterson-Place/r_269882/",
-"latitude": "39.293785",
-"longitude": "-76.583424"
-},
-{
-"id": "269865",
-"name": "Montebello",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Montebello/r_269865/",
-"latitude": "39.333805",
-"longitude": "-76.581997"
-},
-{
-"id": "269921",
-"name": "Union Square",
-"zindex": {
-"@currency": "USD",
-"#text": "159700"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Union-Square/r_269921/",
-"latitude": "39.28683",
-"longitude": "-76.641534"
-},
-{
-"id": "161231",
-"name": "O'Donnell Heights",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/O'Donnell-Heights/r_161231/",
-"latitude": "39.278275",
-"longitude": "-76.538308"
-},
-{
-"id": "416166",
-"name": "Lower Herring Run Park",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Lower-Herring-Run-Park/r_416166/",
-"latitude": "39.321265",
-"longitude": "-76.558709"
-},
-{
-"id": "162217",
-"name": "Rognel Heights",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Rognel-Heights/r_162217/",
-"latitude": "39.296762",
-"longitude": "-76.690078"
-},
-{
-"id": "269821",
-"name": "Greenmount West",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Greenmount-West/r_269821/",
-"latitude": "39.308692",
-"longitude": "-76.611694"
-},
-{
-"id": "163593",
-"name": "Wakefield",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Wakefield/r_163593/",
-"latitude": "39.313601",
-"longitude": "-76.69859"
-},
-{
-"id": "269768",
-"name": "Brewers Hill",
-"zindex": {
-"@currency": "USD",
-"#text": "250800"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Brewers-Hill/r_269768/",
-"latitude": "39.284226",
-"longitude": "-76.564578"
-},
-{
-"id": "274153",
-"name": "Jonestown",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Jonestown/r_274153/",
-"latitude": "39.2909",
-"longitude": "-76.604006"
-},
-{
-"id": "159728",
-"name": "Hunting Ridge",
-"zindex": {
-"@currency": "USD",
-"#text": "186200"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Hunting-Ridge/r_159728/",
-"latitude": "39.297197",
-"longitude": "-76.698704"
-},
-{
-"id": "416683",
-"name": "Rosemont Homeowners-Tenants",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Rosemont-Homeowners--Tenants/r_416683/",
-"latitude": "39.294435",
-"longitude": "-76.658226"
-},
-{
-"id": "269939",
-"name": "Wyndhurst",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Wyndhurst/r_269939/",
-"latitude": "39.357671",
-"longitude": "-76.629413"
-},
-{
-"id": "417229",
-"name": "Concerned Citizens of Forest Park",
-"zindex": {
-"@currency": "USD",
-"#text": "89700"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Concerned-Citizens-of-Forest-Park/r_417229/",
-"latitude": "39.323105",
-"longitude": "-76.683504"
-},
-{
-"id": "269775",
-"name": "Cameron Village",
-"zindex": {
-"@currency": "USD",
-"#text": "95800"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Cameron-Village/r_269775/",
-"latitude": "39.35732",
-"longitude": "-76.599425"
-},
-{
-"id": "416173",
-"name": "Winchester",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Winchester/r_416173/",
-"latitude": "39.301915",
-"longitude": "-76.665269"
-},
-{
-"id": "269873",
-"name": "Oakenshawe",
-"zindex": {
-"@currency": "USD",
-"#text": "188700"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Oakenshawe/r_269873/",
-"latitude": "39.330529",
-"longitude": "-76.612804"
-},
-{
-"id": "273783",
-"name": "Franklintown",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Franklintown/r_273783/",
-"latitude": "39.306053",
-"longitude": "-76.698833"
-},
-{
-"id": "416168",
-"name": "Medford",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Medford/r_416168/",
-"latitude": "39.278841",
-"longitude": "-76.547444"
-},
-{
-"id": "269866",
-"name": "Moravia-Walther",
-"zindex": {
-"@currency": "USD",
-"#text": "142800"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Moravia--Walther/r_269866/",
-"latitude": "39.340147",
-"longitude": "-76.564706"
-},
-{
-"id": "269785",
-"name": "Christopher",
-"zindex": {
-"@currency": "USD",
-"#text": "144400"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Christopher/r_269785/",
-"latitude": "39.36236",
-"longitude": "-76.561919"
-},
-{
-"id": "416172",
-"name": "Northwest Community Action",
-"zindex": {
-"@currency": "USD",
-"#text": "52700"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Northwest-Community-Action/r_416172/",
-"latitude": "39.3064",
-"longitude": "-76.665917"
-},
-{
-"id": "269795",
-"name": "Darley Park",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Darley-Park/r_269795/",
-"latitude": "39.315664",
-"longitude": "-76.593859"
-},
-{
-"id": "269837",
-"name": "Johns Hopkins Homewood",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Johns-Hopkins-Homewood/r_269837/",
-"latitude": "39.32968",
-"longitude": "-76.621666"
-},
-{
-"id": "269846",
-"name": "Langston Hughes",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Langston-Hughes/r_269846/",
-"latitude": "39.343965",
-"longitude": "-76.680289"
-},
-{
-"id": "416361",
-"name": "Arcadia",
-"zindex": {
-"@currency": "USD",
-"#text": "170300"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Arcadia/r_416361/",
-"latitude": "39.333989",
-"longitude": "-76.56814"
-},
-{
-"id": "269911",
-"name": "Sharp-Leadenhall",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Sharp--Leadenhall/r_269911/",
-"latitude": "39.277131",
-"longitude": "-76.617984"
-},
-{
-"id": "417227",
-"name": "Panway - Braddish Avenue",
-"zindex": {
-"@currency": "USD",
-"#text": "73100"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Panway----Braddish-Avenue/r_417227/",
-"latitude": "39.312738",
-"longitude": "-76.662945"
-},
-{
-"id": "269933",
-"name": "Winston-Govans",
-"zindex": {
-"@currency": "USD",
-"#text": "92400"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Winston--Govans/r_269933/",
-"latitude": "39.34993",
-"longitude": "-76.606219"
-},
-{
-"id": "416691",
-"name": "Middle Branch - Reedbird Parks",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Middle-Branch----Reedbird-Parks/r_416691/",
-"latitude": "39.249701",
-"longitude": "-76.620413"
-},
-{
-"id": "269765",
-"name": "Blythewood",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Blythewood/r_269765/",
-"latitude": "39.350844",
-"longitude": "-76.625219"
-},
-{
-"id": "269847",
-"name": "Levindale",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Levindale/r_269847/",
-"latitude": "39.353415",
-"longitude": "-76.664662"
-},
-{
-"id": "269899",
-"name": "Richnor Springs",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Richnor-Springs/r_269899/",
-"latitude": "39.346764",
-"longitude": "-76.606735"
-},
-{
-"id": "416359",
-"name": "Overlea",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Overlea/r_416359/",
-"latitude": "39.362576",
-"longitude": "-76.53531"
-},
-{
-"id": "269832",
-"name": "Hoes Heights",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Hoes-Heights/r_269832/",
-"latitude": "39.34051",
-"longitude": "-76.63712"
-},
-{
-"id": "269808",
-"name": "Evergreen Lawn",
-"zindex": {
-"@currency": "USD",
-"#text": "80700"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Evergreen-Lawn/r_269808/",
-"latitude": "39.296905",
-"longitude": "-76.656409"
-},
-{
-"id": "157677",
-"name": "Coldspring",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Coldspring/r_157677/",
-"latitude": "39.350774",
-"longitude": "-76.654169"
-},
-{
-"id": "417115",
-"name": "Canton Industrial Area",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Canton-Industrial-Area/r_417115/",
-"latitude": "39.270765",
-"longitude": "-76.554584"
-},
-{
-"id": "269792",
-"name": "Cross Keys",
-"zindex": {
-"@currency": "USD",
-"#text": "160300"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Cross-Keys/r_269792/",
-"latitude": "39.352446",
-"longitude": "-76.645238"
-},
-{
-"id": "416355",
-"name": "Abell",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Abell/r_416355/",
-"latitude": "39.325959",
-"longitude": "-76.611426"
-},
-{
-"id": "269935",
-"name": "Woodbourne-McCabe",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Woodbourne--McCabe/r_269935/",
-"latitude": "39.353756",
-"longitude": "-76.606049"
-},
-{
-"id": "417228",
-"name": "Mount Holly",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Mount-Holly/r_417228/",
-"latitude": "39.311559",
-"longitude": "-76.679763"
-},
-{
-"id": "269842",
-"name": "Keswick",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Keswick/r_269842/",
-"latitude": "39.343335",
-"longitude": "-76.630629"
-},
-{
-"id": "269864",
-"name": "Milton - Montford",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Milton----Montford/r_269864/",
-"latitude": "39.300614",
-"longitude": "-76.583114"
-},
-{
-"id": "269787",
-"name": "Clifton Park",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Clifton-Park/r_269787/",
-"latitude": "39.321175",
-"longitude": "-76.584711"
-},
-{
-"id": "161629",
-"name": "Pimlico Good Neighbors",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Pimlico-Good-Neighbors/r_161629/",
-"latitude": "39.353047",
-"longitude": "-76.675939"
-},
-{
-"id": "156658",
-"name": "Beverly Hills",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Beverly-Hills/r_156658/",
-"latitude": "39.339341",
-"longitude": "-76.569139"
-},
-{
-"id": "269799",
-"name": "Druid Hill Park",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Druid-Hill-Park/r_269799/",
-"latitude": "39.32334",
-"longitude": "-76.643362"
-},
-{
-"id": "269915",
-"name": "Stadium Area",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Stadium-Area/r_269915/",
-"latitude": "39.280465",
-"longitude": "-76.622119"
-},
-{
-"id": "269823",
-"name": "Gwynns Falls",
-"zindex": {
-"@currency": "USD",
-"#text": "62100"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Gwynns-Falls/r_269823/",
-"latitude": "39.277483",
-"longitude": "-76.666484"
-},
-{
-"id": "157347",
-"name": "Cedarcroft",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Cedarcroft/r_157347/",
-"latitude": "39.369596",
-"longitude": "-76.613991"
-},
-{
-"id": "269913",
-"name": "South Clifton Park",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/South-Clifton-Park/r_269913/",
-"latitude": "39.313303",
-"longitude": "-76.589944"
-},
-{
-"id": "158067",
-"name": "Dickeyville",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Dickeyville/r_158067/",
-"latitude": "39.315448",
-"longitude": "-76.707124"
-},
-{
-"id": "269931",
-"name": "Wilson Heights",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Wilson-Heights/r_269931/",
-"latitude": "39.334656",
-"longitude": "-76.561397"
-},
-{
-"id": "416688",
-"name": "Carroll Park",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Carroll-Park/r_416688/",
-"latitude": "39.276588",
-"longitude": "-76.645826"
-},
-{
-"id": "269923",
-"name": "Uplands",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Uplands/r_269923/",
-"latitude": "39.289395",
-"longitude": "-76.693306"
-},
-{
-"id": "269895",
-"name": "Radnor-Winston",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Radnor--Winston/r_269895/",
-"latitude": "39.349575",
-"longitude": "-76.612359"
-},
-{
-"id": "269890",
-"name": "Pleasant View Gardens",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Pleasant-View-Gardens/r_269890/",
-"latitude": "39.293295",
-"longitude": "-76.602545"
-},
-{
-"id": "269919",
-"name": "Tremont",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Tremont/r_269919/",
-"latitude": "39.283634",
-"longitude": "-76.694313"
-},
-{
-"id": "160315",
-"name": "Little Italy",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Little-Italy/r_160315/",
-"latitude": "39.286854",
-"longitude": "-76.601099"
-},
-{
-"id": "269901",
-"name": "Rosebank",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Rosebank/r_269901/",
-"latitude": "39.36185",
-"longitude": "-76.612784"
-},
-{
-"id": "269809",
-"name": "Fairfield Area",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Fairfield-Area/r_269809/",
-"latitude": "39.238101",
-"longitude": "-76.584772"
-},
-{
-"id": "269786",
-"name": "Orchard Ridge",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Orchard-Ridge/r_269786/",
-"latitude": "39.313156",
-"longitude": "-76.558343"
-},
-{
-"id": "269876",
-"name": "Orangeville Industrial Area",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Orangeville-Industrial-Area/r_269876/",
-"latitude": "39.306937",
-"longitude": "-76.567255"
-},
-{
-"id": "269840",
-"name": "Joseph Lee",
-"zindex": {
-"@currency": "USD",
-"#text": "98700"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Joseph-Lee/r_269840/",
-"latitude": "39.28901",
-"longitude": "-76.541849"
-},
-{
-"id": "160973",
-"name": "Mount Winans",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Mount-Winans/r_160973/",
-"latitude": "39.262087",
-"longitude": "-76.645684"
-},
-{
-"id": "269844",
-"name": "Lake Evesham",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Lake-Evesham/r_269844/",
-"latitude": "39.366455",
-"longitude": "-76.613909"
-},
-{
-"id": "269841",
-"name": "Kernewood",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Kernewood/r_269841/",
-"latitude": "39.346225",
-"longitude": "-76.613328"
-},
-{
-"id": "416353",
-"name": "The Orchards",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/The-Orchards/r_416353/",
-"latitude": "39.36696",
-"longitude": "-76.629479"
-},
-{
-"id": "269848",
-"name": "Liberty Square",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Liberty-Square/r_269848/",
-"latitude": "39.322055",
-"longitude": "-76.658169"
-},
-{
-"id": "269904",
-"name": "Saint Agnes",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Saint-Agnes/r_269904/",
-"latitude": "39.274247",
-"longitude": "-76.675442"
-},
-{
-"id": "269772",
-"name": "Burleith-Leighton",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Burleith--Leighton/r_269772/",
-"latitude": "39.318729",
-"longitude": "-76.660191"
-},
-{
-"id": "269758",
-"name": "Barre Circle",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Barre-Circle/r_269758/",
-"latitude": "39.285135",
-"longitude": "-76.627529"
-},
-{
-"id": "269926",
-"name": "Villages of Homeland",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Villages-of-Homeland/r_269926/",
-"latitude": "39.352922",
-"longitude": "-76.613841"
-},
-{
-"id": "269922",
-"name": "University of Maryland",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/University-of-Maryland/r_269922/",
-"latitude": "39.288203",
-"longitude": "-76.625088"
-},
-{
-"id": "269761",
-"name": "Bellona-Gittings",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Bellona--Gittings/r_269761/",
-"latitude": "39.369078",
-"longitude": "-76.621702"
-},
-{
-"id": "269914",
-"name": "Spring Garden Industrial Area",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Spring-Garden-Industrial-Area/r_269914/",
-"latitude": "39.267647",
-"longitude": "-76.6182"
-},
-{
-"id": "269917",
-"name": "Taylor Heights",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Taylor-Heights/r_269917/",
-"latitude": "39.368024",
-"longitude": "-76.535018"
-},
-{
-"id": "269767",
-"name": "Booth-Boyd",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Booth--Boyd/r_269767/",
-"latitude": "39.28693",
-"longitude": "-76.650284"
-},
-{
-"id": "416689",
-"name": "Ridgely Delight",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Ridgely-Delight/r_416689/",
-"latitude": "39.283765",
-"longitude": "-76.625408"
-},
-{
-"id": "160889",
-"name": "Morgan Park",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Morgan-Park/r_160889/",
-"latitude": "39.347817",
-"longitude": "-76.579028"
-},
-{
-"id": "269811",
-"name": "Forest Park Golf Course",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Forest-Park-Golf-Course/r_269811/",
-"latitude": "39.32348",
-"longitude": "-76.694704"
-},
-{
-"id": "269833",
-"name": "Holabird Industrial Park",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Holabird-Industrial-Park/r_269833/",
-"latitude": "39.263976",
-"longitude": "-76.536523"
-},
-{
-"id": "416171",
-"name": "Fairmont",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Fairmont/r_416171/",
-"latitude": "39.308978",
-"longitude": "-76.678878"
-},
-{
-"id": "269849",
-"name": "Locust Point",
-"zindex": {
-"@currency": "USD",
-"#text": "291900"
-},
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Locust-Point/r_269849/",
-"latitude": "39.270339",
-"longitude": "-76.588458"
-},
-{
-"id": "269909",
-"name": "Seton Business Park",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Seton-Business-Park/r_269909/",
-"latitude": "39.344254",
-"longitude": "-76.704094"
-},
-{
-"id": "158373",
-"name": "Evergreen",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Evergreen/r_158373/",
-"latitude": "39.34665",
-"longitude": "-76.628854"
-},
-{
-"id": "269843",
-"name": "Kresson",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Kresson/r_269843/",
-"latitude": "39.29575",
-"longitude": "-76.555509"
-},
-{
-"id": "269903",
-"name": "Sabina-Mattfeldt",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Sabina--Mattfeldt/r_269903/",
-"latitude": "39.36638",
-"longitude": "-76.649522"
-},
-{
-"id": "269906",
-"name": "Saint Paul",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Saint-Paul/r_269906/",
-"latitude": "39.267797",
-"longitude": "-76.643667"
-},
-{
-"id": "162373",
-"name": "Saint Helena",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Saint-Helena/r_162373/",
-"latitude": "39.260747",
-"longitude": "-76.531441"
-},
-{
-"id": "269894",
-"name": "Purnell",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Purnell/r_269894/",
-"latitude": "39.320237",
-"longitude": "-76.706667"
-},
-{
-"id": "269760",
-"name": "Belair-Parkside",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Belair--Parkside/r_269760/",
-"latitude": "39.330484",
-"longitude": "-76.568241"
-},
-{
-"id": "416360",
-"name": "Mayfield",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Mayfield/r_416360/",
-"latitude": "39.328685",
-"longitude": "-76.579825"
-},
-{
-"id": "269874",
-"name": "Oaklee",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Oaklee/r_269874/",
-"latitude": "39.268664",
-"longitude": "-76.68469"
-},
-{
-"id": "416692",
-"name": "Curtis Bay Industrial Area",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Curtis-Bay-Industrial-Area/r_416692/",
-"latitude": "39.223409",
-"longitude": "-76.582357"
-},
-{
-"id": "269828",
-"name": "Hawkins Point",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Hawkins-Point/r_269828/",
-"latitude": "39.20789",
-"longitude": "-76.560551"
-},
-{
-"id": "269805",
-"name": "Eastwood",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Eastwood/r_269805/",
-"latitude": "39.290386",
-"longitude": "-76.530557"
-},
-{
-"id": "273516",
-"name": "Dundalk Marine Terminal",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Dundalk-Marine-Terminal/r_273516/",
-"latitude": "39.248516",
-"longitude": "-76.534074"
-},
-{
-"id": "274531",
-"name": "Midway-Coldstream",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Midway--Coldstream/r_274531/",
-"latitude": "39.327099",
-"longitude": "-76.584567"
-},
-{
-"id": "274583",
-"name": "Monument Street Area",
-"url": "http://www.zillow.com/local-info/MD-Baltimore/Monument-Street-Area/r_274583/",
-"latitude": "39.308663",
-"longitude": "-76.555104"
-}
-]
-}
-}
-}
+    "region": {
+    "id": "3523",
+    "latitude": "39.284707",
+    "longitude": "-76.620485"
+    },
+    "subregiontype": "neighborhood",
+    "list": {
+    "count": "279",
+    "region": [
+    {
+    "id": "163743",
+    "name": "West Baltimore",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/West-Baltimore/r_163743/",
+    "latitude": "39.290788",
+    "longitude": "-76.646055"
+    },
+    {
+    "id": "417113",
+    "name": "Frankford",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "117000"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Frankford/r_417113/",
+    "latitude": "39.328782",
+    "longitude": "-76.54645"
+    },
+    {
+    "id": "273916",
+    "name": "Hamilton Area",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Hamilton-Area/r_273916/",
+    "latitude": "39.349334",
+    "longitude": "-76.55536"
+    },
+    {
+    "id": "272908",
+    "name": "Belair-Edison",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "78200"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Belair--Edison/r_272908/",
+    "latitude": "39.32168",
+    "longitude": "-76.567299"
+    },
+    {
+    "id": "157180",
+    "name": "Canton",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "304000"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Canton/r_157180/",
+    "latitude": "39.281208",
+    "longitude": "-76.57452"
+    },
+    {
+    "id": "273067",
+    "name": "Brooklyn",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "70800"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Brooklyn/r_273067/",
+    "latitude": "39.231134",
+    "longitude": "-76.605673"
+    },
+    {
+    "id": "157423",
+    "name": "Charles Village",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "225400"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Charles-Village/r_157423/",
+    "latitude": "39.323396",
+    "longitude": "-76.616419"
+    },
+    {
+    "id": "273831",
+    "name": "Glen",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "138400"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Glen/r_273831/",
+    "latitude": "39.356425",
+    "longitude": "-76.690939"
+    },
+    {
+    "id": "273235",
+    "name": "Cheswolde",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "228800"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Cheswolde/r_273235/",
+    "latitude": "39.366822",
+    "longitude": "-76.679654"
+    },
+    {
+    "id": "416358",
+    "name": "Harford-Echodale - Perring Parkway",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "149900"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Harford--Echodale----Perring-Parkway/r_416358/",
+    "latitude": "39.361173",
+    "longitude": "-76.562516"
+    },
+    {
+    "id": "269907",
+    "name": "Sandtown-Winchester",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "46100"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Sandtown--Winchester/r_269907/",
+    "latitude": "39.30442",
+    "longitude": "-76.641319"
+    },
+    {
+    "id": "276354",
+    "name": "Greenmount East",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Greenmount-East/r_276354/",
+    "latitude": "39.306875",
+    "longitude": "-76.598349"
+    },
+    {
+    "id": "417114",
+    "name": "Coldstream Homestead Montebello",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Coldstream-Homestead-Montebello/r_417114/",
+    "latitude": "39.322568",
+    "longitude": "-76.595759"
+    },
+    {
+    "id": "157467",
+    "name": "Cherry Hill",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "71100"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Cherry-Hill/r_157467/",
+    "latitude": "39.249113",
+    "longitude": "-76.629545"
+    },
+    {
+    "id": "269927",
+    "name": "Waltherson",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "143900"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Waltherson/r_269927/",
+    "latitude": "39.342752",
+    "longitude": "-76.556618"
+    },
+    {
+    "id": "269757",
+    "name": "Patterson Park",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "188400"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Patterson-Park/r_269757/",
+    "latitude": "39.290475",
+    "longitude": "-76.57699"
+    },
+    {
+    "id": "269817",
+    "name": "Glenham-Belford",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "136600"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Glenham--Belford/r_269817/",
+    "latitude": "39.349543",
+    "longitude": "-76.548117"
+    },
+    {
+    "id": "159670",
+    "name": "Howard Park",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "151500"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Howard-Park/r_159670/",
+    "latitude": "39.329853",
+    "longitude": "-76.70039"
+    },
+    {
+    "id": "275152",
+    "name": "Reservoir Hill",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Reservoir-Hill/r_275152/",
+    "latitude": "39.313774",
+    "longitude": "-76.633216"
+    },
+    {
+    "id": "273920",
+    "name": "Hampden",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "199900"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Hampden/r_273920/",
+    "latitude": "39.32997",
+    "longitude": "-76.634933"
+    },
+    {
+    "id": "276506",
+    "name": "Central Park Heights",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "53900"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Central-Park-Heights/r_276506/",
+    "latitude": "39.342511",
+    "longitude": "-76.670879"
+    },
+    {
+    "id": "275829",
+    "name": "Upper Northwood",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Upper-Northwood/r_275829/",
+    "latitude": "39.359758",
+    "longitude": "-76.585972"
+    },
+    {
+    "id": "275198",
+    "name": "Riverside",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "300600"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Riverside/r_275198/",
+    "latitude": "39.272446",
+    "longitude": "-76.604849"
+    },
+    {
+    "id": "158273",
+    "name": "Edmondson Village",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "81300"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Edmondson-Village/r_158273/",
+    "latitude": "39.298306",
+    "longitude": "-76.68011"
+    },
+    {
+    "id": "275228",
+    "name": "Roland Park",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "425000"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Roland-Park/r_275228/",
+    "latitude": "39.348883",
+    "longitude": "-76.634927"
+    },
+    {
+    "id": "159820",
+    "name": "Irvington",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "94300"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Irvington/r_159820/",
+    "latitude": "39.278198",
+    "longitude": "-76.683023"
+    },
+    {
+    "id": "269766",
+    "name": "Bolton Hill",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "353500"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Bolton-Hill/r_269766/",
+    "latitude": "39.30712",
+    "longitude": "-76.627034"
+    },
+    {
+    "id": "160965",
+    "name": "Mount Vernon",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "194800"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Mount-Vernon/r_160965/",
+    "latitude": "39.298137",
+    "longitude": "-76.616101"
+    },
+    {
+    "id": "269885",
+    "name": "Penn-Fallsway",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Penn--Fallsway/r_269885/",
+    "latitude": "39.297006",
+    "longitude": "-76.608408"
+    },
+    {
+    "id": "269870",
+    "name": "New Northwood",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "115100"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/New-Northwood/r_269870/",
+    "latitude": "39.348085",
+    "longitude": "-76.594689"
+    },
+    {
+    "id": "269925",
+    "name": "Upton",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Upton/r_269925/",
+    "latitude": "39.30146",
+    "longitude": "-76.630899"
+    },
+    {
+    "id": "269861",
+    "name": "Mid-Town Belvedere",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Mid--Town-Belvedere/r_269861/",
+    "latitude": "39.304429",
+    "longitude": "-76.616105"
+    },
+    {
+    "id": "158452",
+    "name": "Fallstaff",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "122500"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Fallstaff/r_158452/",
+    "latitude": "39.365082",
+    "longitude": "-76.705628"
+    },
+    {
+    "id": "22505",
+    "name": "Loch Raven",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "109600"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Loch-Raven/r_22505/",
+    "latitude": "39.363278",
+    "longitude": "-76.581499"
+    },
+    {
+    "id": "269806",
+    "name": "Ednor Gardens-Lakeside",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "139400"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Ednor-Gardens--Lakeside/r_269806/",
+    "latitude": "39.334215",
+    "longitude": "-76.597534"
+    },
+    {
+    "id": "272904",
+    "name": "Beechfield",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "102900"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Beechfield/r_272904/",
+    "latitude": "39.275519",
+    "longitude": "-76.701421"
+    },
+    {
+    "id": "160124",
+    "name": "Lakeland",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "68700"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Lakeland/r_160124/",
+    "latitude": "39.254628",
+    "longitude": "-76.648703"
+    },
+    {
+    "id": "269791",
+    "name": "Cross Country",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "272500"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Cross-Country/r_269791/",
+    "latitude": "39.365512",
+    "longitude": "-76.700558"
+    },
+    {
+    "id": "274572",
+    "name": "Mondawin",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "42900"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Mondawin/r_274572/",
+    "latitude": "39.314425",
+    "longitude": "-76.653716"
+    },
+    {
+    "id": "269827",
+    "name": "Harlem Park",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "48600"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Harlem-Park/r_269827/",
+    "latitude": "39.29608",
+    "longitude": "-76.639433"
+    },
+    {
+    "id": "158479",
+    "name": "Fells Point",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "251700"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Fells-Point/r_158479/",
+    "latitude": "39.28398",
+    "longitude": "-76.593703"
+    },
+    {
+    "id": "269756",
+    "name": "Allendale",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "68200"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Allendale/r_269756/",
+    "latitude": "39.28913",
+    "longitude": "-76.680899"
+    },
+    {
+    "id": "276020",
+    "name": "Westgate",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "160400"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Westgate/r_276020/",
+    "latitude": "39.285089",
+    "longitude": "-76.704605"
+    },
+    {
+    "id": "269880",
+    "name": "Park Circle",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Park-Circle/r_269880/",
+    "latitude": "39.328786",
+    "longitude": "-76.659745"
+    },
+    {
+    "id": "269875",
+    "name": "Oliver",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "41500"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Oliver/r_269875/",
+    "latitude": "39.308059",
+    "longitude": "-76.599289"
+    },
+    {
+    "id": "276430",
+    "name": "Lower Northwood",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Lower-Northwood/r_276430/",
+    "latitude": "39.341673",
+    "longitude": "-76.586911"
+    },
+    {
+    "id": "273882",
+    "name": "Mount Washington",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "301700"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Mount-Washington/r_273882/",
+    "latitude": "39.363536",
+    "longitude": "-76.665785"
+    },
+    {
+    "id": "269856",
+    "name": "McElderry Park",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "76000"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/McElderry-Park/r_269856/",
+    "latitude": "39.296775",
+    "longitude": "-76.580734"
+    },
+    {
+    "id": "159130",
+    "name": "Guilford",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "613900"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Guilford/r_159130/",
+    "latitude": "39.338244",
+    "longitude": "-76.617909"
+    },
+    {
+    "id": "416357",
+    "name": "Glen Oaks",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "125000"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Glen-Oaks/r_416357/",
+    "latitude": "39.364061",
+    "longitude": "-76.596633"
+    },
+    {
+    "id": "160898",
+    "name": "Morrell Park",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "80500"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Morrell-Park/r_160898/",
+    "latitude": "39.266309",
+    "longitude": "-76.657703"
+    },
+    {
+    "id": "269770",
+    "name": "Broadway East",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Broadway-East/r_269770/",
+    "latitude": "39.308505",
+    "longitude": "-76.588814"
+    },
+    {
+    "id": "160182",
+    "name": "Lauraville",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "163700"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Lauraville/r_160182/",
+    "latitude": "39.345499",
+    "longitude": "-76.572495"
+    },
+    {
+    "id": "31145",
+    "name": "Curtis Bay",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "63100"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Curtis-Bay/r_31145/",
+    "latitude": "39.207978",
+    "longitude": "-76.554688"
+    },
+    {
+    "id": "269779",
+    "name": "Carrollton Ridge",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "41700"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Carrollton-Ridge/r_269779/",
+    "latitude": "39.282552",
+    "longitude": "-76.649382"
+    },
+    {
+    "id": "269924",
+    "name": "Upper Fells Point",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "252300"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Upper-Fells-Point/r_269924/",
+    "latitude": "39.28814",
+    "longitude": "-76.588999"
+    },
+    {
+    "id": "269797",
+    "name": "Downtown",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "234700"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Downtown/r_269797/",
+    "latitude": "39.29131",
+    "longitude": "-76.614274"
+    },
+    {
+    "id": "159490",
+    "name": "Highlandtown",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "202300"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Highlandtown/r_159490/",
+    "latitude": "39.288455",
+    "longitude": "-76.567774"
+    },
+    {
+    "id": "269883",
+    "name": "Pen Lucy",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "89200"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Pen-Lucy/r_269883/",
+    "latitude": "39.339919",
+    "longitude": "-76.604661"
+    },
+    {
+    "id": "272944",
+    "name": "Berea",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "49900"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Berea/r_272944/",
+    "latitude": "39.3096",
+    "longitude": "-76.578484"
+    },
+    {
+    "id": "159624",
+    "name": "Homeland",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "556700"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Homeland/r_159624/",
+    "latitude": "39.35999",
+    "longitude": "-76.619381"
+    },
+    {
+    "id": "269930",
+    "name": "Westfield",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "155900"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Westfield/r_269930/",
+    "latitude": "39.359496",
+    "longitude": "-76.550715"
+    },
+    {
+    "id": "269929",
+    "name": "Washington Village",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "114200"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Washington-Village/r_269929/",
+    "latitude": "39.280795",
+    "longitude": "-76.631502"
+    },
+    {
+    "id": "416351",
+    "name": "Greenspring",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "54600"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Greenspring/r_416351/",
+    "latitude": "39.336534",
+    "longitude": "-76.660644"
+    },
+    {
+    "id": "269763",
+    "name": "Better Waverly",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "72300"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Better-Waverly/r_269763/",
+    "latitude": "39.32335",
+    "longitude": "-76.603644"
+    },
+    {
+    "id": "416686",
+    "name": "Penrose-Fayette Street Outreach",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Penrose--Fayette-Street-Outreach/r_416686/",
+    "latitude": "39.291063",
+    "longitude": "-76.658357"
+    },
+    {
+    "id": "159773",
+    "name": "Idlewood",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "117100"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Idlewood/r_159773/",
+    "latitude": "39.369082",
+    "longitude": "-76.588401"
+    },
+    {
+    "id": "416169",
+    "name": "Ellwood Park-Monument",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "65200"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Ellwood-Park--Monument/r_416169/",
+    "latitude": "39.297055",
+    "longitude": "-76.571871"
+    },
+    {
+    "id": "157365",
+    "name": "Cedonia",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "98800"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Cedonia/r_157365/",
+    "latitude": "39.326859",
+    "longitude": "-76.533564"
+    },
+    {
+    "id": "269819",
+    "name": "Greektown",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "119100"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Greektown/r_269819/",
+    "latitude": "39.286349",
+    "longitude": "-76.552579"
+    },
+    {
+    "id": "269836",
+    "name": "Inner Harbor",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "266600"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Inner-Harbor/r_269836/",
+    "latitude": "39.28123",
+    "longitude": "-76.610791"
+    },
+    {
+    "id": "269920",
+    "name": "Tuscany-Canterbury",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "149900"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Tuscany--Canterbury/r_269920/",
+    "latitude": "39.337369",
+    "longitude": "-76.621893"
+    },
+    {
+    "id": "269813",
+    "name": "Franklin Square",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "65200"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Franklin-Square/r_269813/",
+    "latitude": "39.29003",
+    "longitude": "-76.642619"
+    },
+    {
+    "id": "163753",
+    "name": "West Forest Park",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "116100"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/West-Forest-Park/r_163753/",
+    "latitude": "39.31842",
+    "longitude": "-76.694853"
+    },
+    {
+    "id": "417117",
+    "name": "Ashburton",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "150600"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Ashburton/r_417117/",
+    "latitude": "39.329463",
+    "longitude": "-76.671424"
+    },
+    {
+    "id": "269888",
+    "name": "Perring Loch",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "130400"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Perring-Loch/r_269888/",
+    "latitude": "39.352143",
+    "longitude": "-76.583442"
+    },
+    {
+    "id": "269803",
+    "name": "East Baltimore Midway",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "45300"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/East-Baltimore-Midway/r_269803/",
+    "latitude": "39.314898",
+    "longitude": "-76.602231"
+    },
+    {
+    "id": "273712",
+    "name": "Federal Hill",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "325900"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Federal-Hill/r_273712/",
+    "latitude": "39.277814",
+    "longitude": "-76.610979"
+    },
+    {
+    "id": "269780",
+    "name": "Cedmont",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "142400"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Cedmont/r_269780/",
+    "latitude": "39.348546",
+    "longitude": "-76.53674"
+    },
+    {
+    "id": "269908",
+    "name": "SBIC",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "293900"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/SBIC/r_269908/",
+    "latitude": "39.270991",
+    "longitude": "-76.614239"
+    },
+    {
+    "id": "48366",
+    "name": "Waverly",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "89300"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Waverly/r_48366/",
+    "latitude": "39.33239",
+    "longitude": "-76.606513"
+    },
+    {
+    "id": "276202",
+    "name": "Bayview Area",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Bayview-Area/r_276202/",
+    "latitude": "39.286432",
+    "longitude": "-76.5416"
+    },
+    {
+    "id": "269936",
+    "name": "Woodmere",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "88100"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Woodmere/r_269936/",
+    "latitude": "39.345919",
+    "longitude": "-76.689515"
+    },
+    {
+    "id": "269891",
+    "name": "Poppleton",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "82200"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Poppleton/r_269891/",
+    "latitude": "39.29109",
+    "longitude": "-76.632889"
+    },
+    {
+    "id": "269928",
+    "name": "Washington Hill",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "209300"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Washington-Hill/r_269928/",
+    "latitude": "39.29079",
+    "longitude": "-76.594374"
+    },
+    {
+    "id": "274058",
+    "name": "Middle East",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Middle-East/r_274058/",
+    "latitude": "39.299395",
+    "longitude": "-76.589678"
+    },
+    {
+    "id": "416685",
+    "name": "Bridgeview - Greenlawn",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "63700"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Bridgeview----Greenlawn/r_416685/",
+    "latitude": "39.301444",
+    "longitude": "-76.654286"
+    },
+    {
+    "id": "269853",
+    "name": "Madison Park",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Madison-Park/r_269853/",
+    "latitude": "39.30477",
+    "longitude": "-76.627929"
+    },
+    {
+    "id": "156305",
+    "name": "Armistead Gardens",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Armistead-Gardens/r_156305/",
+    "latitude": "39.308389",
+    "longitude": "-76.552129"
+    },
+    {
+    "id": "269871",
+    "name": "North Harford Road",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "151400"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/North-Harford-Road/r_269871/",
+    "latitude": "39.367811",
+    "longitude": "-76.547989"
+    },
+    {
+    "id": "163581",
+    "name": "Violetville",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "115500"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Violetville/r_163581/",
+    "latitude": "39.265724",
+    "longitude": "-76.674482"
+    },
+    {
+    "id": "269796",
+    "name": "Dolfield",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "117100"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Dolfield/r_269796/",
+    "latitude": "39.338204",
+    "longitude": "-76.679275"
+    },
+    {
+    "id": "274896",
+    "name": "Old Town",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Old-Town/r_274896/",
+    "latitude": "39.298144",
+    "longitude": "-76.603267"
+    },
+    {
+    "id": "269857",
+    "name": "Medfield",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "155200"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Medfield/r_269857/",
+    "latitude": "39.340213",
+    "longitude": "-76.642443"
+    },
+    {
+    "id": "269940",
+    "name": "Yale-Heights",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "89900"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Yale--Heights/r_269940/",
+    "latitude": "39.275947",
+    "longitude": "-76.689971"
+    },
+    {
+    "id": "416170",
+    "name": "Gwynns Falls - Leakin Park",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Gwynns-Falls----Leakin-Park/r_416170/",
+    "latitude": "39.303619",
+    "longitude": "-76.684424"
+    },
+    {
+    "id": "269867",
+    "name": "Morgan State University",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Morgan-State-University/r_269867/",
+    "latitude": "39.346763",
+    "longitude": "-76.580471"
+    },
+    {
+    "id": "269850",
+    "name": "Locust Point Industrial Area",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Locust-Point-Industrial-Area/r_269850/",
+    "latitude": "39.268713",
+    "longitude": "-76.592867"
+    },
+    {
+    "id": "269860",
+    "name": "Mid-Govans",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "110900"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Mid--Govans/r_269860/",
+    "latitude": "39.359515",
+    "longitude": "-76.605614"
+    },
+    {
+    "id": "269794",
+    "name": "Cylburn",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "119700"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Cylburn/r_269794/",
+    "latitude": "39.34749",
+    "longitude": "-76.664026"
+    },
+    {
+    "id": "269896",
+    "name": "Reisterstown Station",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "110600"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Reisterstown-Station/r_269896/",
+    "latitude": "39.353525",
+    "longitude": "-76.701604"
+    },
+    {
+    "id": "416356",
+    "name": "Barclay",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Barclay/r_416356/",
+    "latitude": "39.31471",
+    "longitude": "-76.612399"
+    },
+    {
+    "id": "163763",
+    "name": "West Hills",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "111900"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/West-Hills/r_163763/",
+    "latitude": "39.297465",
+    "longitude": "-76.703012"
+    },
+    {
+    "id": "416693",
+    "name": "Coppin Heights - Ash-Co-East",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Coppin-Heights----Ash--Co--East/r_416693/",
+    "latitude": "39.306521",
+    "longitude": "-76.657815"
+    },
+    {
+    "id": "269881",
+    "name": "Parklane",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Parklane/r_269881/",
+    "latitude": "39.34273",
+    "longitude": "-76.662444"
+    },
+    {
+    "id": "269825",
+    "name": "Hanlon-Longwood",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "94400"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Hanlon--Longwood/r_269825/",
+    "latitude": "39.31918",
+    "longitude": "-76.669179"
+    },
+    {
+    "id": "269862",
+    "name": "Midtown-Edmondson",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Midtown--Edmondson/r_269862/",
+    "latitude": "39.297512",
+    "longitude": "-76.650949"
+    },
+    {
+    "id": "269845",
+    "name": "Lake Walker",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "191700"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Lake-Walker/r_269845/",
+    "latitude": "39.369559",
+    "longitude": "-76.603517"
+    },
+    {
+    "id": "269835",
+    "name": "Hopkins Bayview",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Hopkins-Bayview/r_269835/",
+    "latitude": "39.29171",
+    "longitude": "-76.543244"
+    },
+    {
+    "id": "274393",
+    "name": "Madison - Eastend",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "38000"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Madison----Eastend/r_274393/",
+    "latitude": "39.300739",
+    "longitude": "-76.576911"
+    },
+    {
+    "id": "43748",
+    "name": "Walbrook",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "73400"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Walbrook/r_43748/",
+    "latitude": "39.311676",
+    "longitude": "-76.667703"
+    },
+    {
+    "id": "273883",
+    "name": "Rosemont",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "61100"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Rosemont/r_273883/",
+    "latitude": "39.304315",
+    "longitude": "-76.670061"
+    },
+    {
+    "id": "269838",
+    "name": "Johnston Square",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "63300"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Johnston-Square/r_269838/",
+    "latitude": "39.303784",
+    "longitude": "-76.605679"
+    },
+    {
+    "id": "10171",
+    "name": "Arlington",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "61400"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Arlington/r_10171/",
+    "latitude": "39.348361",
+    "longitude": "-76.682194"
+    },
+    {
+    "id": "269863",
+    "name": "Mill Hill",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "42900"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Mill-Hill/r_269863/",
+    "latitude": "39.279681",
+    "longitude": "-76.657089"
+    },
+    {
+    "id": "269912",
+    "name": "Shipley Hill",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Shipley-Hill/r_269912/",
+    "latitude": "39.28587",
+    "longitude": "-76.656915"
+    },
+    {
+    "id": "273241",
+    "name": "Chinquapin Park-Belvedere",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "133000"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Chinquapin-Park--Belvedere/r_273241/",
+    "latitude": "39.36352",
+    "longitude": "-76.604173"
+    },
+    {
+    "id": "161940",
+    "name": "Ramblewood",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "120200"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Ramblewood/r_161940/",
+    "latitude": "39.363433",
+    "longitude": "-76.589789"
+    },
+    {
+    "id": "269937",
+    "name": "Woodring",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "139100"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Woodring/r_269937/",
+    "latitude": "39.362946",
+    "longitude": "-76.544169"
+    },
+    {
+    "id": "269887",
+    "name": "Perkins Homes",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Perkins-Homes/r_269887/",
+    "latitude": "39.287845",
+    "longitude": "-76.596524"
+    },
+    {
+    "id": "269884",
+    "name": "Penn North",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "44900"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Penn-North/r_269884/",
+    "latitude": "39.312335",
+    "longitude": "-76.641744"
+    },
+    {
+    "id": "269905",
+    "name": "Saint Josephs",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "71900"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Saint-Josephs/r_269905/",
+    "latitude": "39.285465",
+    "longitude": "-76.676391"
+    },
+    {
+    "id": "156432",
+    "name": "Baltimore Highlands",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "85400"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Baltimore-Highlands/r_156432/",
+    "latitude": "39.293661",
+    "longitude": "-76.566114"
+    },
+    {
+    "id": "275107",
+    "name": "Pulaski Industrial Area",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Pulaski-Industrial-Area/r_275107/",
+    "latitude": "39.302036",
+    "longitude": "-76.543312"
+    },
+    {
+    "id": "269773",
+    "name": "Butcher's Hill",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "254400"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Butcher's-Hill/r_269773/",
+    "latitude": "39.291895",
+    "longitude": "-76.586914"
+    },
+    {
+    "id": "416687",
+    "name": "New Southwest - Mount Clare",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/New-Southwest----Mount-Clare/r_416687/",
+    "latitude": "39.282803",
+    "longitude": "-76.641376"
+    },
+    {
+    "id": "269897",
+    "name": "Remington",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "116400"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Remington/r_269897/",
+    "latitude": "39.319837",
+    "longitude": "-76.623604"
+    },
+    {
+    "id": "416694",
+    "name": "Harwood",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "121000"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Harwood/r_416694/",
+    "latitude": "39.32076",
+    "longitude": "-76.61125"
+    },
+    {
+    "id": "269774",
+    "name": "Callaway-Garrison",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Callaway--Garrison/r_269774/",
+    "latitude": "39.331017",
+    "longitude": "-76.679834"
+    },
+    {
+    "id": "416167",
+    "name": "Parkside",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "84600"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Parkside/r_416167/",
+    "latitude": "39.3223",
+    "longitude": "-76.557114"
+    },
+    {
+    "id": "416684",
+    "name": "Carrol-South Hilton",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Carrol--South-Hilton/r_416684/",
+    "latitude": "39.28696",
+    "longitude": "-76.665825"
+    },
+    {
+    "id": "163742",
+    "name": "West Arlington",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "154600"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/West-Arlington/r_163742/",
+    "latitude": "39.33953",
+    "longitude": "-76.690272"
+    },
+    {
+    "id": "269816",
+    "name": "Gay Street",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Gay-Street/r_269816/",
+    "latitude": "39.301265",
+    "longitude": "-76.596794"
+    },
+    {
+    "id": "269834",
+    "name": "Hollins Market",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "84000"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Hollins-Market/r_269834/",
+    "latitude": "39.287355",
+    "longitude": "-76.632909"
+    },
+    {
+    "id": "269822",
+    "name": "Grove Park",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "126300"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Grove-Park/r_269822/",
+    "latitude": "39.340068",
+    "longitude": "-76.702023"
+    },
+    {
+    "id": "269818",
+    "name": "Graceland Park",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "118400"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Graceland-Park/r_269818/",
+    "latitude": "39.278927",
+    "longitude": "-76.53509"
+    },
+    {
+    "id": "416354",
+    "name": "Loyola - Notre Dame",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Loyola----Notre-Dame/r_416354/",
+    "latitude": "39.349709",
+    "longitude": "-76.619336"
+    },
+    {
+    "id": "417116",
+    "name": "Dorchester",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "136100"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Dorchester/r_417116/",
+    "latitude": "39.33167",
+    "longitude": "-76.686821"
+    },
+    {
+    "id": "269798",
+    "name": "Druid Heights",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Druid-Heights/r_269798/",
+    "latitude": "39.30777",
+    "longitude": "-76.63758"
+    },
+    {
+    "id": "269814",
+    "name": "Franklintown Road",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "49700"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Franklintown-Road/r_269814/",
+    "latitude": "39.297811",
+    "longitude": "-76.667778"
+    },
+    {
+    "id": "269916",
+    "name": "Stonewood-Pentwood-Winston",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Stonewood--Pentwood--Winston/r_269916/",
+    "latitude": "39.348624",
+    "longitude": "-76.588192"
+    },
+    {
+    "id": "269934",
+    "name": "Woodbourne Heights",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Woodbourne-Heights/r_269934/",
+    "latitude": "39.357434",
+    "longitude": "-76.592338"
+    },
+    {
+    "id": "416352",
+    "name": "North Roland Park - Poplar Hill",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "528100"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/North-Roland-Park----Poplar-Hill/r_416352/",
+    "latitude": "39.366816",
+    "longitude": "-76.638821"
+    },
+    {
+    "id": "416690",
+    "name": "Carroll - Camden Industrial Area",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Carroll----Camden-Industrial-Area/r_416690/",
+    "latitude": "39.273114",
+    "longitude": "-76.634214"
+    },
+    {
+    "id": "269902",
+    "name": "Rosemont East",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "135700"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Rosemont-East/r_269902/",
+    "latitude": "39.355729",
+    "longitude": "-76.537305"
+    },
+    {
+    "id": "269877",
+    "name": "Original Northwood",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "173900"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Original-Northwood/r_269877/",
+    "latitude": "39.339529",
+    "longitude": "-76.596734"
+    },
+    {
+    "id": "158580",
+    "name": "Forest Park",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Forest-Park/r_158580/",
+    "latitude": "39.323858",
+    "longitude": "-76.676999"
+    },
+    {
+    "id": "273853",
+    "name": "Govans",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Govans/r_273853/",
+    "latitude": "39.328499",
+    "longitude": "-76.595094"
+    },
+    {
+    "id": "269829",
+    "name": "Heritage Crossing",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Heritage-Crossing/r_269829/",
+    "latitude": "39.296559",
+    "longitude": "-76.628214"
+    },
+    {
+    "id": "269878",
+    "name": "Otterbein",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "331200"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Otterbein/r_269878/",
+    "latitude": "39.281666",
+    "longitude": "-76.615914"
+    },
+    {
+    "id": "269910",
+    "name": "Seton Hill",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Seton-Hill/r_269910/",
+    "latitude": "39.295432",
+    "longitude": "-76.624459"
+    },
+    {
+    "id": "269764",
+    "name": "Biddle Street",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "32700"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Biddle-Street/r_269764/",
+    "latitude": "39.303789",
+    "longitude": "-76.579187"
+    },
+    {
+    "id": "417226",
+    "name": "Parkview - Woodbrook",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "65000"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Parkview----Woodbrook/r_417226/",
+    "latitude": "39.316758",
+    "longitude": "-76.647941"
+    },
+    {
+    "id": "159951",
+    "name": "Kenilworth Park",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "115700"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Kenilworth-Park/r_159951/",
+    "latitude": "39.34994",
+    "longitude": "-76.601179"
+    },
+    {
+    "id": "269781",
+    "name": "Central Forest Park",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Central-Forest-Park/r_269781/",
+    "latitude": "39.326865",
+    "longitude": "-76.688"
+    },
+    {
+    "id": "269868",
+    "name": "Mosher",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "38300"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Mosher/r_269868/",
+    "latitude": "39.297445",
+    "longitude": "-76.662284"
+    },
+    {
+    "id": "269831",
+    "name": "Hillen",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "120700"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Hillen/r_269831/",
+    "latitude": "39.341895",
+    "longitude": "-76.590054"
+    },
+    {
+    "id": "161389",
+    "name": "Orangeville",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Orangeville/r_161389/",
+    "latitude": "39.302335",
+    "longitude": "-76.559224"
+    },
+    {
+    "id": "269918",
+    "name": "Towanda-Grantley",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Towanda--Grantley/r_269918/",
+    "latitude": "39.335665",
+    "longitude": "-76.668449"
+    },
+    {
+    "id": "164061",
+    "name": "Woodberry",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "149000"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Woodberry/r_164061/",
+    "latitude": "39.337389",
+    "longitude": "-76.650079"
+    },
+    {
+    "id": "276108",
+    "name": "Windsor Hills",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "135400"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Windsor-Hills/r_276108/",
+    "latitude": "39.31715",
+    "longitude": "-76.686604"
+    },
+    {
+    "id": "269815",
+    "name": "Garwyn Oaks",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Garwyn-Oaks/r_269815/",
+    "latitude": "39.31818",
+    "longitude": "-76.679249"
+    },
+    {
+    "id": "163146",
+    "name": "Ten Hills",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Ten-Hills/r_163146/",
+    "latitude": "39.287208",
+    "longitude": "-76.701654"
+    },
+    {
+    "id": "269771",
+    "name": "Broening Manor",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "77700"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Broening-Manor/r_269771/",
+    "latitude": "39.274826",
+    "longitude": "-76.537344"
+    },
+    {
+    "id": "269783",
+    "name": "Charles North",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Charles-North/r_269783/",
+    "latitude": "39.310247",
+    "longitude": "-76.617611"
+    },
+    {
+    "id": "269852",
+    "name": "Lucille Park",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Lucille-Park/r_269852/",
+    "latitude": "39.33946",
+    "longitude": "-76.676147"
+    },
+    {
+    "id": "269802",
+    "name": "East Arlington",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "108300"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/East-Arlington/r_269802/",
+    "latitude": "39.331186",
+    "longitude": "-76.668912"
+    },
+    {
+    "id": "269932",
+    "name": "Wilson Park",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "81400"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Wilson-Park/r_269932/",
+    "latitude": "39.343651",
+    "longitude": "-76.604604"
+    },
+    {
+    "id": "269938",
+    "name": "Wyman Park",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "232900"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Wyman-Park/r_269938/",
+    "latitude": "39.331683",
+    "longitude": "-76.625764"
+    },
+    {
+    "id": "269812",
+    "name": "Four by Four",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Four-by-Four/r_269812/",
+    "latitude": "39.315682",
+    "longitude": "-76.577514"
+    },
+    {
+    "id": "269800",
+    "name": "Dunbar-Broadway",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Dunbar--Broadway/r_269800/",
+    "latitude": "39.29558",
+    "longitude": "-76.594739"
+    },
+    {
+    "id": "269804",
+    "name": "Easterwood",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "46400"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Easterwood/r_269804/",
+    "latitude": "39.30748",
+    "longitude": "-76.650276"
+    },
+    {
+    "id": "269839",
+    "name": "Jones Falls Area",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Jones-Falls-Area/r_269839/",
+    "latitude": "39.320635",
+    "longitude": "-76.631624"
+    },
+    {
+    "id": "163817",
+    "name": "Westport",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Westport/r_163817/",
+    "latitude": "39.261682",
+    "longitude": "-76.634568"
+    },
+    {
+    "id": "269882",
+    "name": "Patterson Place",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "172700"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Patterson-Place/r_269882/",
+    "latitude": "39.293785",
+    "longitude": "-76.583424"
+    },
+    {
+    "id": "269865",
+    "name": "Montebello",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Montebello/r_269865/",
+    "latitude": "39.333805",
+    "longitude": "-76.581997"
+    },
+    {
+    "id": "269921",
+    "name": "Union Square",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "159700"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Union-Square/r_269921/",
+    "latitude": "39.28683",
+    "longitude": "-76.641534"
+    },
+    {
+    "id": "161231",
+    "name": "O'Donnell Heights",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/O'Donnell-Heights/r_161231/",
+    "latitude": "39.278275",
+    "longitude": "-76.538308"
+    },
+    {
+    "id": "416166",
+    "name": "Lower Herring Run Park",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Lower-Herring-Run-Park/r_416166/",
+    "latitude": "39.321265",
+    "longitude": "-76.558709"
+    },
+    {
+    "id": "162217",
+    "name": "Rognel Heights",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Rognel-Heights/r_162217/",
+    "latitude": "39.296762",
+    "longitude": "-76.690078"
+    },
+    {
+    "id": "269821",
+    "name": "Greenmount West",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Greenmount-West/r_269821/",
+    "latitude": "39.308692",
+    "longitude": "-76.611694"
+    },
+    {
+    "id": "163593",
+    "name": "Wakefield",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Wakefield/r_163593/",
+    "latitude": "39.313601",
+    "longitude": "-76.69859"
+    },
+    {
+    "id": "269768",
+    "name": "Brewers Hill",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "250800"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Brewers-Hill/r_269768/",
+    "latitude": "39.284226",
+    "longitude": "-76.564578"
+    },
+    {
+    "id": "274153",
+    "name": "Jonestown",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Jonestown/r_274153/",
+    "latitude": "39.2909",
+    "longitude": "-76.604006"
+    },
+    {
+    "id": "159728",
+    "name": "Hunting Ridge",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "186200"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Hunting-Ridge/r_159728/",
+    "latitude": "39.297197",
+    "longitude": "-76.698704"
+    },
+    {
+    "id": "416683",
+    "name": "Rosemont Homeowners-Tenants",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Rosemont-Homeowners--Tenants/r_416683/",
+    "latitude": "39.294435",
+    "longitude": "-76.658226"
+    },
+    {
+    "id": "269939",
+    "name": "Wyndhurst",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Wyndhurst/r_269939/",
+    "latitude": "39.357671",
+    "longitude": "-76.629413"
+    },
+    {
+    "id": "417229",
+    "name": "Concerned Citizens of Forest Park",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "89700"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Concerned-Citizens-of-Forest-Park/r_417229/",
+    "latitude": "39.323105",
+    "longitude": "-76.683504"
+    },
+    {
+    "id": "269775",
+    "name": "Cameron Village",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "95800"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Cameron-Village/r_269775/",
+    "latitude": "39.35732",
+    "longitude": "-76.599425"
+    },
+    {
+    "id": "416173",
+    "name": "Winchester",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Winchester/r_416173/",
+    "latitude": "39.301915",
+    "longitude": "-76.665269"
+    },
+    {
+    "id": "269873",
+    "name": "Oakenshawe",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "188700"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Oakenshawe/r_269873/",
+    "latitude": "39.330529",
+    "longitude": "-76.612804"
+    },
+    {
+    "id": "273783",
+    "name": "Franklintown",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Franklintown/r_273783/",
+    "latitude": "39.306053",
+    "longitude": "-76.698833"
+    },
+    {
+    "id": "416168",
+    "name": "Medford",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Medford/r_416168/",
+    "latitude": "39.278841",
+    "longitude": "-76.547444"
+    },
+    {
+    "id": "269866",
+    "name": "Moravia-Walther",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "142800"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Moravia--Walther/r_269866/",
+    "latitude": "39.340147",
+    "longitude": "-76.564706"
+    },
+    {
+    "id": "269785",
+    "name": "Christopher",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "144400"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Christopher/r_269785/",
+    "latitude": "39.36236",
+    "longitude": "-76.561919"
+    },
+    {
+    "id": "416172",
+    "name": "Northwest Community Action",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "52700"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Northwest-Community-Action/r_416172/",
+    "latitude": "39.3064",
+    "longitude": "-76.665917"
+    },
+    {
+    "id": "269795",
+    "name": "Darley Park",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Darley-Park/r_269795/",
+    "latitude": "39.315664",
+    "longitude": "-76.593859"
+    },
+    {
+    "id": "269837",
+    "name": "Johns Hopkins Homewood",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Johns-Hopkins-Homewood/r_269837/",
+    "latitude": "39.32968",
+    "longitude": "-76.621666"
+    },
+    {
+    "id": "269846",
+    "name": "Langston Hughes",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Langston-Hughes/r_269846/",
+    "latitude": "39.343965",
+    "longitude": "-76.680289"
+    },
+    {
+    "id": "416361",
+    "name": "Arcadia",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "170300"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Arcadia/r_416361/",
+    "latitude": "39.333989",
+    "longitude": "-76.56814"
+    },
+    {
+    "id": "269911",
+    "name": "Sharp-Leadenhall",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Sharp--Leadenhall/r_269911/",
+    "latitude": "39.277131",
+    "longitude": "-76.617984"
+    },
+    {
+    "id": "417227",
+    "name": "Panway - Braddish Avenue",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "73100"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Panway----Braddish-Avenue/r_417227/",
+    "latitude": "39.312738",
+    "longitude": "-76.662945"
+    },
+    {
+    "id": "269933",
+    "name": "Winston-Govans",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "92400"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Winston--Govans/r_269933/",
+    "latitude": "39.34993",
+    "longitude": "-76.606219"
+    },
+    {
+    "id": "416691",
+    "name": "Middle Branch - Reedbird Parks",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Middle-Branch----Reedbird-Parks/r_416691/",
+    "latitude": "39.249701",
+    "longitude": "-76.620413"
+    },
+    {
+    "id": "269765",
+    "name": "Blythewood",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Blythewood/r_269765/",
+    "latitude": "39.350844",
+    "longitude": "-76.625219"
+    },
+    {
+    "id": "269847",
+    "name": "Levindale",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Levindale/r_269847/",
+    "latitude": "39.353415",
+    "longitude": "-76.664662"
+    },
+    {
+    "id": "269899",
+    "name": "Richnor Springs",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Richnor-Springs/r_269899/",
+    "latitude": "39.346764",
+    "longitude": "-76.606735"
+    },
+    {
+    "id": "416359",
+    "name": "Overlea",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Overlea/r_416359/",
+    "latitude": "39.362576",
+    "longitude": "-76.53531"
+    },
+    {
+    "id": "269832",
+    "name": "Hoes Heights",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Hoes-Heights/r_269832/",
+    "latitude": "39.34051",
+    "longitude": "-76.63712"
+    },
+    {
+    "id": "269808",
+    "name": "Evergreen Lawn",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "80700"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Evergreen-Lawn/r_269808/",
+    "latitude": "39.296905",
+    "longitude": "-76.656409"
+    },
+    {
+    "id": "157677",
+    "name": "Coldspring",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Coldspring/r_157677/",
+    "latitude": "39.350774",
+    "longitude": "-76.654169"
+    },
+    {
+    "id": "417115",
+    "name": "Canton Industrial Area",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Canton-Industrial-Area/r_417115/",
+    "latitude": "39.270765",
+    "longitude": "-76.554584"
+    },
+    {
+    "id": "269792",
+    "name": "Cross Keys",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "160300"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Cross-Keys/r_269792/",
+    "latitude": "39.352446",
+    "longitude": "-76.645238"
+    },
+    {
+    "id": "416355",
+    "name": "Abell",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Abell/r_416355/",
+    "latitude": "39.325959",
+    "longitude": "-76.611426"
+    },
+    {
+    "id": "269935",
+    "name": "Woodbourne-McCabe",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Woodbourne--McCabe/r_269935/",
+    "latitude": "39.353756",
+    "longitude": "-76.606049"
+    },
+    {
+    "id": "417228",
+    "name": "Mount Holly",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Mount-Holly/r_417228/",
+    "latitude": "39.311559",
+    "longitude": "-76.679763"
+    },
+    {
+    "id": "269842",
+    "name": "Keswick",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Keswick/r_269842/",
+    "latitude": "39.343335",
+    "longitude": "-76.630629"
+    },
+    {
+    "id": "269864",
+    "name": "Milton - Montford",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Milton----Montford/r_269864/",
+    "latitude": "39.300614",
+    "longitude": "-76.583114"
+    },
+    {
+    "id": "269787",
+    "name": "Clifton Park",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Clifton-Park/r_269787/",
+    "latitude": "39.321175",
+    "longitude": "-76.584711"
+    },
+    {
+    "id": "161629",
+    "name": "Pimlico Good Neighbors",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Pimlico-Good-Neighbors/r_161629/",
+    "latitude": "39.353047",
+    "longitude": "-76.675939"
+    },
+    {
+    "id": "156658",
+    "name": "Beverly Hills",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Beverly-Hills/r_156658/",
+    "latitude": "39.339341",
+    "longitude": "-76.569139"
+    },
+    {
+    "id": "269799",
+    "name": "Druid Hill Park",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Druid-Hill-Park/r_269799/",
+    "latitude": "39.32334",
+    "longitude": "-76.643362"
+    },
+    {
+    "id": "269915",
+    "name": "Stadium Area",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Stadium-Area/r_269915/",
+    "latitude": "39.280465",
+    "longitude": "-76.622119"
+    },
+    {
+    "id": "269823",
+    "name": "Gwynns Falls",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "62100"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Gwynns-Falls/r_269823/",
+    "latitude": "39.277483",
+    "longitude": "-76.666484"
+    },
+    {
+    "id": "157347",
+    "name": "Cedarcroft",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Cedarcroft/r_157347/",
+    "latitude": "39.369596",
+    "longitude": "-76.613991"
+    },
+    {
+    "id": "269913",
+    "name": "South Clifton Park",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/South-Clifton-Park/r_269913/",
+    "latitude": "39.313303",
+    "longitude": "-76.589944"
+    },
+    {
+    "id": "158067",
+    "name": "Dickeyville",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Dickeyville/r_158067/",
+    "latitude": "39.315448",
+    "longitude": "-76.707124"
+    },
+    {
+    "id": "269931",
+    "name": "Wilson Heights",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Wilson-Heights/r_269931/",
+    "latitude": "39.334656",
+    "longitude": "-76.561397"
+    },
+    {
+    "id": "416688",
+    "name": "Carroll Park",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Carroll-Park/r_416688/",
+    "latitude": "39.276588",
+    "longitude": "-76.645826"
+    },
+    {
+    "id": "269923",
+    "name": "Uplands",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Uplands/r_269923/",
+    "latitude": "39.289395",
+    "longitude": "-76.693306"
+    },
+    {
+    "id": "269895",
+    "name": "Radnor-Winston",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Radnor--Winston/r_269895/",
+    "latitude": "39.349575",
+    "longitude": "-76.612359"
+    },
+    {
+    "id": "269890",
+    "name": "Pleasant View Gardens",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Pleasant-View-Gardens/r_269890/",
+    "latitude": "39.293295",
+    "longitude": "-76.602545"
+    },
+    {
+    "id": "269919",
+    "name": "Tremont",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Tremont/r_269919/",
+    "latitude": "39.283634",
+    "longitude": "-76.694313"
+    },
+    {
+    "id": "160315",
+    "name": "Little Italy",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Little-Italy/r_160315/",
+    "latitude": "39.286854",
+    "longitude": "-76.601099"
+    },
+    {
+    "id": "269901",
+    "name": "Rosebank",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Rosebank/r_269901/",
+    "latitude": "39.36185",
+    "longitude": "-76.612784"
+    },
+    {
+    "id": "269809",
+    "name": "Fairfield Area",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Fairfield-Area/r_269809/",
+    "latitude": "39.238101",
+    "longitude": "-76.584772"
+    },
+    {
+    "id": "269786",
+    "name": "Orchard Ridge",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Orchard-Ridge/r_269786/",
+    "latitude": "39.313156",
+    "longitude": "-76.558343"
+    },
+    {
+    "id": "269876",
+    "name": "Orangeville Industrial Area",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Orangeville-Industrial-Area/r_269876/",
+    "latitude": "39.306937",
+    "longitude": "-76.567255"
+    },
+    {
+    "id": "269840",
+    "name": "Joseph Lee",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "98700"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Joseph-Lee/r_269840/",
+    "latitude": "39.28901",
+    "longitude": "-76.541849"
+    },
+    {
+    "id": "160973",
+    "name": "Mount Winans",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Mount-Winans/r_160973/",
+    "latitude": "39.262087",
+    "longitude": "-76.645684"
+    },
+    {
+    "id": "269844",
+    "name": "Lake Evesham",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Lake-Evesham/r_269844/",
+    "latitude": "39.366455",
+    "longitude": "-76.613909"
+    },
+    {
+    "id": "269841",
+    "name": "Kernewood",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Kernewood/r_269841/",
+    "latitude": "39.346225",
+    "longitude": "-76.613328"
+    },
+    {
+    "id": "416353",
+    "name": "The Orchards",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/The-Orchards/r_416353/",
+    "latitude": "39.36696",
+    "longitude": "-76.629479"
+    },
+    {
+    "id": "269848",
+    "name": "Liberty Square",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Liberty-Square/r_269848/",
+    "latitude": "39.322055",
+    "longitude": "-76.658169"
+    },
+    {
+    "id": "269904",
+    "name": "Saint Agnes",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Saint-Agnes/r_269904/",
+    "latitude": "39.274247",
+    "longitude": "-76.675442"
+    },
+    {
+    "id": "269772",
+    "name": "Burleith-Leighton",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Burleith--Leighton/r_269772/",
+    "latitude": "39.318729",
+    "longitude": "-76.660191"
+    },
+    {
+    "id": "269758",
+    "name": "Barre Circle",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Barre-Circle/r_269758/",
+    "latitude": "39.285135",
+    "longitude": "-76.627529"
+    },
+    {
+    "id": "269926",
+    "name": "Villages of Homeland",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Villages-of-Homeland/r_269926/",
+    "latitude": "39.352922",
+    "longitude": "-76.613841"
+    },
+    {
+    "id": "269922",
+    "name": "University of Maryland",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/University-of-Maryland/r_269922/",
+    "latitude": "39.288203",
+    "longitude": "-76.625088"
+    },
+    {
+    "id": "269761",
+    "name": "Bellona-Gittings",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Bellona--Gittings/r_269761/",
+    "latitude": "39.369078",
+    "longitude": "-76.621702"
+    },
+    {
+    "id": "269914",
+    "name": "Spring Garden Industrial Area",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Spring-Garden-Industrial-Area/r_269914/",
+    "latitude": "39.267647",
+    "longitude": "-76.6182"
+    },
+    {
+    "id": "269917",
+    "name": "Taylor Heights",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Taylor-Heights/r_269917/",
+    "latitude": "39.368024",
+    "longitude": "-76.535018"
+    },
+    {
+    "id": "269767",
+    "name": "Booth-Boyd",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Booth--Boyd/r_269767/",
+    "latitude": "39.28693",
+    "longitude": "-76.650284"
+    },
+    {
+    "id": "416689",
+    "name": "Ridgely Delight",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Ridgely-Delight/r_416689/",
+    "latitude": "39.283765",
+    "longitude": "-76.625408"
+    },
+    {
+    "id": "160889",
+    "name": "Morgan Park",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Morgan-Park/r_160889/",
+    "latitude": "39.347817",
+    "longitude": "-76.579028"
+    },
+    {
+    "id": "269811",
+    "name": "Forest Park Golf Course",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Forest-Park-Golf-Course/r_269811/",
+    "latitude": "39.32348",
+    "longitude": "-76.694704"
+    },
+    {
+    "id": "269833",
+    "name": "Holabird Industrial Park",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Holabird-Industrial-Park/r_269833/",
+    "latitude": "39.263976",
+    "longitude": "-76.536523"
+    },
+    {
+    "id": "416171",
+    "name": "Fairmont",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Fairmont/r_416171/",
+    "latitude": "39.308978",
+    "longitude": "-76.678878"
+    },
+    {
+    "id": "269849",
+    "name": "Locust Point",
+    "zindex": {
+    "@currency": "USD",
+    "#text": "291900"
+    },
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Locust-Point/r_269849/",
+    "latitude": "39.270339",
+    "longitude": "-76.588458"
+    },
+    {
+    "id": "269909",
+    "name": "Seton Business Park",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Seton-Business-Park/r_269909/",
+    "latitude": "39.344254",
+    "longitude": "-76.704094"
+    },
+    {
+    "id": "158373",
+    "name": "Evergreen",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Evergreen/r_158373/",
+    "latitude": "39.34665",
+    "longitude": "-76.628854"
+    },
+    {
+    "id": "269843",
+    "name": "Kresson",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Kresson/r_269843/",
+    "latitude": "39.29575",
+    "longitude": "-76.555509"
+    },
+    {
+    "id": "269903",
+    "name": "Sabina-Mattfeldt",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Sabina--Mattfeldt/r_269903/",
+    "latitude": "39.36638",
+    "longitude": "-76.649522"
+    },
+    {
+    "id": "269906",
+    "name": "Saint Paul",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Saint-Paul/r_269906/",
+    "latitude": "39.267797",
+    "longitude": "-76.643667"
+    },
+    {
+    "id": "162373",
+    "name": "Saint Helena",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Saint-Helena/r_162373/",
+    "latitude": "39.260747",
+    "longitude": "-76.531441"
+    },
+    {
+    "id": "269894",
+    "name": "Purnell",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Purnell/r_269894/",
+    "latitude": "39.320237",
+    "longitude": "-76.706667"
+    },
+    {
+    "id": "269760",
+    "name": "Belair-Parkside",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Belair--Parkside/r_269760/",
+    "latitude": "39.330484",
+    "longitude": "-76.568241"
+    },
+    {
+    "id": "416360",
+    "name": "Mayfield",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Mayfield/r_416360/",
+    "latitude": "39.328685",
+    "longitude": "-76.579825"
+    },
+    {
+    "id": "269874",
+    "name": "Oaklee",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Oaklee/r_269874/",
+    "latitude": "39.268664",
+    "longitude": "-76.68469"
+    },
+    {
+    "id": "416692",
+    "name": "Curtis Bay Industrial Area",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Curtis-Bay-Industrial-Area/r_416692/",
+    "latitude": "39.223409",
+    "longitude": "-76.582357"
+    },
+    {
+    "id": "269828",
+    "name": "Hawkins Point",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Hawkins-Point/r_269828/",
+    "latitude": "39.20789",
+    "longitude": "-76.560551"
+    },
+    {
+    "id": "269805",
+    "name": "Eastwood",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Eastwood/r_269805/",
+    "latitude": "39.290386",
+    "longitude": "-76.530557"
+    },
+    {
+    "id": "273516",
+    "name": "Dundalk Marine Terminal",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Dundalk-Marine-Terminal/r_273516/",
+    "latitude": "39.248516",
+    "longitude": "-76.534074"
+    },
+    {
+    "id": "274531",
+    "name": "Midway-Coldstream",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Midway--Coldstream/r_274531/",
+    "latitude": "39.327099",
+    "longitude": "-76.584567"
+    },
+    {
+    "id": "274583",
+    "name": "Monument Street Area",
+    "url": "http://www.zillow.com/local-info/MD-Baltimore/Monument-Street-Area/r_274583/",
+    "latitude": "39.308663",
+    "longitude": "-76.555104"
+    }
+    ]
+    }
+    }
