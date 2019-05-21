@@ -1,4 +1,5 @@
 # Imports
+# https://stackoverflow.com/questions/454854/no-module-named-mysqldb
 from flask import Flask, jsonify
 from matplotlib import style
 style.use('fivethirtyeight')
@@ -17,7 +18,7 @@ from sqlalchemy import create_engine, func, inspect
 
 # Database Setup
 connection_string = "root:Miamiheat5@localhost/ProjectTwo_db"
-engine = create_engine(f'mysql://{connection_string}', connect_args={'check_same_thread': False})
+engine = create_engine(f'mysql://{connection_string}')
 
 # reflect an existing database into a new model
 Base = automap_base()
@@ -64,8 +65,20 @@ def welcome():
 @app.route("/api/v1.0/baltimore_crime")
 def baltimore_crime():
     """Return json representation of baltimore crime data query results"""
-    results = session.query(Baltimore_Crime.Description, Baltimore_Crime.Exact_Location).\
-    order_by(Baltimore_Crime.Exact_Location)
+    results = session.query(Baltimore_Crime).all()
+
+    baltimore_list = []
+
+    for crime in results:
+        baltimore_dict = {}
+        baltimore_dict["Neighborhood"] = crime.Neighborhood
+        baltimore_dict["Description"] = crime.Description
+        baltimore_dict["Exact_Location"] = crime.Exact_Location
+        baltimore_dict["CrimeDate"] = crime.CrimeDate
+        baltimore_list.append(baltimore_dict)
+
+
+# order_by(Baltimore_Crime.Exact_Location)
 #     filter(Measurement.date >= one_year_date).\
 #     filter(Measurement.prcp != "None").all()
 
@@ -76,7 +89,7 @@ def baltimore_crime():
 #     [one_year_prcp[t[0]].append(t[1]) if t[0] in list(one_year_prcp.keys())
 #      else one_year_prcp.update({t[0]: [t[1]]}) for t in results2]
     
-    return jsonify(results)
+    return jsonify(baltimore_list)
 
 # @app.route("/api/v1.0/stations")
 # def stations():
