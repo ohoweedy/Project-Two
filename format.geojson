@@ -1,0 +1,6 @@
+{"type":"FeatureCollection",
+"features":[
+    {"type":"Feature",
+    "properties":{"mag":0.92,"place":"7km NW of The Geysers, CA","time":1558471914360,"updated":1558472010552,"tz":-480,"url":"https://earthquake.usgs.gov/earthquakes/eventpage/nc73184936","detail":"https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73184936.geojson","felt":null,"cdi":null,"mmi":null,"alert":null,"status":"automatic","tsunami":0,"sig":13,"net":"nc","code":"73184936","ids":",nc73184936,","sources":",nc,","types":",geoserve,nearby-cities,origin,phase-data,","nst":16,"dmin":0.002495,"rms":0.04,"gap":68,"magType":"md","type":"earthquake","title":"M 0.9 - 7km NW of The Geysers, CA"},
+    "geometry":{"type":"Point","coordinates":[-122.809166,38.8209991,2.39]},
+    "id":"nc73184936"}
