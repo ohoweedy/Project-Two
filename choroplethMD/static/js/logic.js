@@ -12,9 +12,17 @@ L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
   accessToken: API_KEY
 }).addTo(myMap);
 
+//CIRCLES for crime
+var crimeLink = "http://127.0.0.1:5000/api/v1.0/baltimore_crime";
+d3.json(crimeLink, function(data){
+
+  console.log(data)
+
+});
+
+
 // Link to GeoJSON
 var APILink = "new.geojson";
-
 
 // Grab data with d3
 d3.json(APILink, function(data) {
