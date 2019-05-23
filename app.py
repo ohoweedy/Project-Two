@@ -81,19 +81,41 @@ def baltimore_crime():
         baltimore_dict["Exact_Location"] = crime.Exact_Location
         baltimore_dict["CrimeDate"] = crime.CrimeDate
         baltimore_list.append(baltimore_dict)
-    
+    session.close()
     return jsonify(baltimore_list)
 
 @app.route("/api/v1.0/baltimore_group")
 def baltimore_group():
     """Return json representation of baltimore total crime data query results"""
-    groupby = session.query(
-        Baltimore_Crime.Neighborhood, 
-        Baltimore_Crime.Description, 
-        func.count(Baltimore_Crime.Total_Incidents)
-        ).group_by(Baltimore_Crime.Neighborhood,Baltimore_Crime.Description).all()
+    # groupby = session.query(
+    #     Baltimore_Crime.Neighborhood, 
+    #     Baltimore_Crime.Description, 
+    #     func.count(Baltimore_Crime.Total_Incidents)
+    #     ).group_by(Baltimore_Crime.Neighborhood,Baltimore_Crime.Description).all()
+    # session.close()
+
+    groupby = list(engine.execute("""SELECT * FROM projecttwo_db.crime_data;""").fetchall())
+    #print(groupby)
+
+
+    gb_dict = {
+        "Neighborhood": groupby[0][7]
+    }
+
+    gb_list = list()
+
+    for row in groupby:
+        #print(row)
+        gb_dict = {
+            "Neighborhood" : row[7]
+        }
         
-    return jsonify(groupby)
+        gb_list.append(gb_dict)
+        
+
+    #print(gb_list)
+    # return jsonify(groupby)
+    return jsonify(gb_list)
 
 if __name__ == '__main__':
     app.run(debug=True)

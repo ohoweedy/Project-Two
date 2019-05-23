@@ -12,33 +12,33 @@ L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
   accessToken: API_KEY
 }).addTo(myMap);
 
-//CIRCLES for crime
-var crimeLink = "/api/v1.0/baltimore_crime";
-d3.json(crimeLink, function(data){
+// //CIRCLES for crime
+// var crimeLink = "/api/v1.0/baltimore_crime";
+// d3.json(crimeLink, function(data){
   
-      for (var i = 0; i < data.length; i++) {
+//       for (var i = 0; i < data.length; i++) {
 
-        // Conditionals for countries points
+//         // Conditionals for countries points
 
-        // Add circles to map
-        try{
-          L.circle([data[i].Exact_Location.slice(1,8),data[i].Exact_Location.slice(15,24)], 
+//         // Add circles to map
+//         try{
+//           L.circle([data[i].Exact_Location.slice(1,8),data[i].Exact_Location.slice(15,24)], 
           
-          {
-            color: "blue",
-            opacity: 0.04,
-            fillOpacity: 0.04,
-            fillColor: "blue",
-            // Adjust radius
-            radius: 50
-          }).bindPopup("<h1>" + data[i].Neighborhood + "</h1> <hr> <h3>Crime: " + data[i].Description + "</h3>").addTo(myMap);
-        }
-        catch (err){
-        }
-    }
+//           {
+//             color: "blue",
+//             opacity: 0.04,
+//             fillOpacity: 0.04,
+//             fillColor: "blue",
+//             // Adjust radius
+//             radius: 50
+//           }).bindPopup("<h1>" + data[i].Neighborhood + "</h1> <hr> <h3>Crime: " + data[i].Description + "</h3>").addTo(myMap);
+//         }
+//         catch (err){
+//         }
+//     }
 
   
-});
+// });
 
 
 // Link to GeoJSON
@@ -110,4 +110,11 @@ d3.json(APILink, function(data) {
   // Adding legend to the map
   legend.addTo(myMap);
 
+});
+
+var crimeTypes = "/api/v1.0/baltimore_group";
+d3.json(crimeTypes, function(data){
+  
+  console.log(data)
+  
 });
