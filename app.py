@@ -59,6 +59,16 @@ def index():
     """Return the homepage."""
     return render_template("index.html")
 
+@app.route("/analysis")
+def analysis():
+    """Return the homepage."""
+    return render_template("analysis.html")
+
+@app.route("/conclusion")
+def conclusion():
+    """Return the conclusion."""
+    return render_template("conclusion.html")
+
 @app.route("/api/v1.0/geojson")
 def monwhy():
     geojson = mongo.db.data.find_one()
@@ -94,28 +104,31 @@ def baltimore_group():
     #     ).group_by(Baltimore_Crime.Neighborhood,Baltimore_Crime.Description).all()
     # session.close()
 
-    groupby = list(engine.execute("""SELECT * FROM projecttwo_db.crime_data;""").fetchall())
-    #print(groupby)
+    crime_tot = list(engine.execute("""Select Neighborhood, Description , COUNT(Total_Incidents) AS 'total_crime'
+	FROM projecttwo_db.crime_data
+    GROUP BY Neighborhood, Description;""").fetchall())
+    #print(crime_tot)
+
+    # gb_dict = {
+    #     "Neighborhood": groupby[0][7]
+    # }
 
 
-    gb_dict = {
-        "Neighborhood": groupby[0][7]
-    }
+    new_dict = {}
+    for row in crime_tot:
+        if row[0] is None :
+            new_dict.update({"Empty Neighborhood" : {}})
+        else:
+            new_dict.update({row[0] : {}})
 
-    gb_list = list()
+            #new_dict[row[0]].update({row[1] : row[2]})
+    for dicts in new_dict:
+        for row in crime_tot:
+            if (dicts == row[0]):
+                new_dict[dicts].update({"neighborhood": row[0]})
+                new_dict[dicts].update({row[1]:row[2]})
 
-    for row in groupby:
-        #print(row)
-        gb_dict = {
-            "Neighborhood" : row[7]
-        }
-        
-        gb_list.append(gb_dict)
-        
-
-    #print(gb_list)
-    # return jsonify(groupby)
-    return jsonify(gb_list)
+    return jsonify(new_dict)
 
 if __name__ == '__main__':
     app.run(debug=True)
