@@ -125,7 +125,7 @@ def baltimore_group():
     for dicts in new_dict:
         for row in crime_tot:
             if (dicts == row[0]):
-                new_dict[dicts].update({"neighborhood": row[0]})
+                new_dict[dicts].update({"Neighborhood": row[0]})
                 new_dict[dicts].update({row[1]:row[2]})
 
     return jsonify(new_dict)

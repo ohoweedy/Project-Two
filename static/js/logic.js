@@ -121,21 +121,21 @@ d3.json(crimeLink, function(data){
 
     
     // Add circles to map
-    try{
-      var crime_circle = L.circle([data[i].Exact_Location.slice(1,8),data[i].Exact_Location.slice(15,24)], 
+    // try{
+    //   var crime_circle = L.circle([data[i].Exact_Location.slice(1,8),data[i].Exact_Location.slice(15,24)], 
       
-      {
-        color: color,
-        opacity: 0.04,
-        fillOpacity: 0.04,
-        fillColor: color,
-        // Adjust radius
-        radius: 50
-      }).bindPopup("<h1>" + data[i].Neighborhood + "</h1> <hr> <h3>Crime: " + data[i].Description + "</h3>").addTo(myMap);
-      crime_circle.addTo(layers[crime_status]);
-    }
-    catch (err){
-    }
+    //   {
+    //     color: color,
+    //     opacity: 0.04,
+    //     fillOpacity: 0.04,
+    //     fillColor: color,
+    //     // Adjust radius
+    //     radius: 50
+    //   }).bindPopup("<h1>" + data[i].Neighborhood + "</h1> <hr> <h3>Crime: " + data[i].Description + "</h3>").addTo(myMap);
+    //   crime_circle.addTo(layers[crime_status]);
+    // }
+    // catch (err){
+    // }
 }
 
 });
@@ -250,7 +250,7 @@ chart.padding(30, 30, 10, 30);
 
 // Create axes
 var categoryAxis = chart.xAxes.push(new am4charts.CategoryAxis());
-categoryAxis.dataFields.category = "neighborhood";
+categoryAxis.dataFields.category = "Neighborhood";
 categoryAxis.renderer.grid.template.location = 0;
 
 
@@ -266,7 +266,7 @@ function createSeries(field, name) {
   var series = chart.series.push(new am4charts.ColumnSeries());
   series.name = name;
   series.dataFields.valueY = field;
-  series.dataFields.categoryX = "neighborhood";
+  series.dataFields.categoryX = "Neighborhood";
   series.sequencedInterpolation = true;
   // series.dataFields.valueYShow = "totalPercent";
   
