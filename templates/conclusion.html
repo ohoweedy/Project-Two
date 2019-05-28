@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width">
     <title>Baltimore | MD</title>
     <link rel="stylesheet" href="static/css/style.css">
-    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   </head>
   <body>
@@ -31,20 +31,63 @@
           <h1 class="page-title">Conclusion</h1>
           <ul id="services">
             <li>
-              <img src="static/images/4-scatter.jpg" alt="Graph" width="620">
             </li>
           </ul>
         </article>
 
-        <aside id="sidebar">
-          <div class="dark">
-            <h3>Steps</h3>
-            <p> A brief analysis on the data shown</p>
-            
-          </div>
-        </aside>
+          <style type="text/css">
+            .tg  {border-collapse:collapse;border-spacing:0;border-color:#9ABAD9;}
+            .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#9ABAD9;color:#444;background-color:#EBF5FF;}
+            .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#9ABAD9;color:#fff;background-color:#409cff;}
+            .tg .tg-0lax{text-align:left;vertical-align:top}
+            </style>
+            <table class="tg">
+              <tr>
+                <th class="tg-0lax">Relationship</th>
+                <th class="tg-0lax">Pearson's Correlation</th>
+              </tr>
+              <tr>
+                <td class="tg-0lax">Price vs Agg. Assault</td>
+                <td class="tg-0lax">-0.3039</td>
+              </tr>
+              <tr>
+                <td class="tg-0lax">Price vs Common Assault</td>
+                <td class="tg-0lax">-0.1735</td>
+              </tr>
+              <tr>
+                <td class="tg-0lax">Price vs Homicide</td>
+                <td class="tg-0lax">-0.4630</td>
+              </tr>
+              <tr>
+                <td class="tg-0lax">Price vs Robbery: Carjacking</td>
+                <td class="tg-0lax">-0.2121</td>
+              </tr>
+              <tr>
+                <td class="tg-0lax">Price vs Robbery: Commercial</td>
+                <td class="tg-0lax">-0.0040</td>
+              </tr>
+              <tr>
+                <td class="tg-0lax">Price vs Robbery: Residence</td>
+                <td class="tg-0lax">-0.3338</td>
+              </tr>
+              <tr>
+                <td class="tg-0lax">Price vs Robbery: Street</td>
+                <td class="tg-0lax">-0.0061</td>
+              </tr>
+              <tr>
+                <td class="tg-0lax">Price vs Rape</td>
+                <td class="tg-0lax">-0.1395</td>
+              </tr>
+              <tr>
+                <td class="tg-0lax">Price vs Shooting</td>
+                <td class="tg-0lax">-0.4204</td>
+              </tr>
+            </table>
+
       </div>
     </section>
+
+    <script src="{{ url_for('static', filename='js/regressdata.js') }}"></script>
 
     <footer>
       <p>Eric Tsai, Omar Howeedy, Rodrigo Anglarill</p>
