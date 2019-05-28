@@ -215,6 +215,7 @@ aside#sidebar .quote input, aside#sidebar .quote textarea{
 article#main-col{
   float:left;
   width:65%;
+  padding: 30 20 20 20;
 }
 
 /* Services */
@@ -224,6 +225,7 @@ ul#services li{
   border: #cccccc solid 1px;
   margin-bottom:5px;
   background:#e6e6e6;
+  font-size: 30px;
 }
 
 footer{

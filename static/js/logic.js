@@ -14,7 +14,7 @@ var layers = {
 // Creating map object
 var myMap = L.map("map", {
   center: [39.2904,-76.6122, ],
-  zoom: 12,
+  zoom: 13,
   layers: [
     layers.SHOOTING,
     layers.AGG_ASSAULT,
@@ -136,9 +136,12 @@ d3.json(crimeLink, function(data){
         }
         catch (err){
         }
+
+
     }
 
 });
+
 
 
 
@@ -198,7 +201,7 @@ d3.json(APILink, function(data) {
     var legendInfo = "<h1>Housing Price per Neighborhood</h1>" +
       "<div class=\"labels\">" +
         "<div class=\"min\">" + limits[0] + "</div>" +
-        "<div class=\"max\">" + limits[limits.length - 1] + "</div>" +
+        "<div class=\"max\">" + 613900 + "</div>" +
       "</div>";
 
     div.innerHTML = legendInfo;
@@ -221,6 +224,7 @@ d3.json(APILink, function(data) {
  
 //on "click" select the map and find the textContent to feed the "neighborhood into the charts"
 d3.select(map).on("click",function(){
+
   var nextstep = ""
   nextstep = d3.select(map).select(".leaflet-pane")._groups[0][0].textContent.replace("Neighborhood :","").replace("×","")
   console.log(nextstep)
