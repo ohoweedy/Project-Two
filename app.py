@@ -34,7 +34,7 @@ import pymongo
 # collection = db.data
 
 # Database Setup
-connection_string = "root:D0ntquit!@localhost/ProjectTwo_db"
+connection_string = "root:Miamiheat5@localhost/ProjectTwo_db"
 engine = create_engine(f'mysql://{connection_string}')
 
 # reflect an existing database into a new model
