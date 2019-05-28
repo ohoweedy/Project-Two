@@ -62,7 +62,7 @@ bullet.strokeWidth = 2;
 bullet.fillOpacity = 0.7;
 bullet.stroke = am4core.color("#ffffff");
 
-bullet.tooltipText = "[bold]AGG. ASSAULT:[/]\nPopulation: {value.value}\nIncome: {valueX.value}\nLife expectancy:{valueY.value}";
+bullet.tooltipText = "[bold]AGG. ASSAULT:[/]\nHousing Prices: {valueX.value}\nCrime:{valueY.value}";
 
 var hoverState = bullet.states.create("hover");
 hoverState.properties.fillOpacity = 1;
@@ -91,7 +91,7 @@ bullet2.strokeWidth = 2;
 bullet2.fillOpacity = 0.7;
 bullet2.stroke = am4core.color("#ffffff");
 
-bullet2.tooltipText = "[bold]COMMON ASSAULT:[/]\nPopulation: {value.value}\nIncome: {valueX.value}\nLife expectancy:{valueY.value}";
+bullet2.tooltipText = "[bold]COMMON ASSAULT:[/]\nHousing Prices: {valueX.value}\nCrime:{valueY.value}";
 
 var hoverState2 = bullet2.states.create("hover");
 hoverState2.properties.fillOpacity = 1;
@@ -120,7 +120,7 @@ bullet3.strokeWidth = 2;
 bullet3.fillOpacity = 0.7;
 bullet3.stroke = am4core.color("#ffffff");
 
-bullet3.tooltipText = "[bold]HOMICIDE:[/]\nPopulation: {value.value}\nIncome: {valueX.value}\nLife expectancy:{valueY.value}";
+bullet3.tooltipText = "[bold]HOMICIDE:[/]\nHousing Prices: {valueX.value}\nCrime:{valueY.value}";
 
 var hoverState3 = bullet3.states.create("hover");
 hoverState3.properties.fillOpacity = 1;
@@ -149,7 +149,7 @@ bullet4.strokeWidth = 2;
 bullet4.fillOpacity = 0.7;
 bullet4.stroke = am4core.color("#ffffff");
 
-bullet4.tooltipText = "[bold]RAPE:[/]\nPopulation: {value.value}\nIncome: {valueX.value}\nLife expectancy:{valueY.value}";
+bullet4.tooltipText = "[bold]RAPE:[/]\nHousing Prices: {valueX.value}\nCrime:{valueY.value}";
 
 var hoverState4 = bullet4.states.create("hover");
 hoverState4.properties.fillOpacity = 1;
@@ -178,7 +178,7 @@ bullet5.strokeWidth = 2;
 bullet5.fillOpacity = 0.7;
 bullet5.stroke = am4core.color("#ffffff");
 
-bullet5.tooltipText = "[bold]CARJACKING:[/]\nPopulation: {value.value}\nIncome: {valueX.value}\nLife expectancy:{valueY.value}";
+bullet5.tooltipText = "[bold]CARJACKING:[/]\nHousing Prices: {valueX.value}\nCrime:{valueY.value}";
 
 var hoverState5 = bullet5.states.create("hover");
 hoverState5.properties.fillOpacity = 1;
@@ -207,7 +207,7 @@ bullet6.strokeWidth = 2;
 bullet6.fillOpacity = 0.7;
 bullet6.stroke = am4core.color("#ffffff");
 
-bullet6.tooltipText = "[bold]COMMERCIAL:[/]\nPopulation: {value.value}\nIncome: {valueX.value}\nLife expectancy:{valueY.value}";
+bullet6.tooltipText = "[bold]COMMERCIAL:[/]\nHousing Prices: {valueX.value}\nCrime:{valueY.value}";
 
 var hoverState6 = bullet6.states.create("hover");
 hoverState6.properties.fillOpacity = 1;
@@ -236,7 +236,7 @@ bullet7.strokeWidth = 2;
 bullet7.fillOpacity = 0.7;
 bullet7.stroke = am4core.color("#ffffff");
 
-bullet7.tooltipText = "[bold]RESIDENCE:[/]\nPopulation: {value.value}\nIncome: {valueX.value}\nLife expectancy:{valueY.value}";
+bullet7.tooltipText = "[bold]RESIDENCE:[/]\nHousing Prices: {valueX.value}\nCrime:{valueY.value}";
 
 var hoverState7 = bullet7.states.create("hover");
 hoverState7.properties.fillOpacity = 1;
@@ -265,7 +265,7 @@ bullet8.strokeWidth = 2;
 bullet8.fillOpacity = 0.7;
 bullet8.stroke = am4core.color("#ffffff");
 
-bullet8.tooltipText = "[bold]STREET:[/]\nPopulation: {value.value}\nIncome: {valueX.value}\nLife expectancy:{valueY.value}";
+bullet8.tooltipText = "[bold]STREET:[/]\nHousing Prices: {valueX.value}\nCrime:{valueY.value}";
 
 var hoverState8 = bullet8.states.create("hover");
 hoverState8.properties.fillOpacity = 1;
@@ -294,7 +294,7 @@ bullet9.strokeWidth = 2;
 bullet9.fillOpacity = 0.7;
 bullet9.stroke = am4core.color("#ffffff");
 
-bullet9.tooltipText = "[bold]SHOOTING:[/]\nPopulation: {value.value}\nIncome: {valueX.value}\nLife expectancy:{valueY.value}";
+bullet9.tooltipText = "[bold]SHOOTING:[/]\nHousing Prices: {valueX.value}\nCrime:{valueY.value}";
 
 var hoverState9 = bullet9.states.create("hover");
 hoverState9.properties.fillOpacity = 1;

@@ -31,17 +31,18 @@ var myMap = L.map("map", {
 // Create an overlays object to add to the layer control
 var overlays = {
   "SHOOTING": layers.SHOOTING,
-  "AGGRAVATED ASSAULT": layers.AGG_ASSAULT,
+  "AGGRAVATED_ASSAULT": layers.AGG_ASSAULT,
   "HOMICIDE": layers.HOMICIDE,
-  "COMMON ASSAULT": layers.COMMON_ASSAULT,
-  "ROBBERY STREET": layers.ROBBERY_STREET,
-  "ROBBERY RESIDENCE": layers.ROBBERY_RESIDENCE,
-  "ROBBERY COMMERCIAL": layers.ROBBERY_COMMERCIAL,
-  "ROBBERY CARJACKING": layers.ROBBERY_CARJACKING,
+  "COMMON_ASSAULT": layers.COMMON_ASSAULT,
+  "ROBBERY_STREET": layers.ROBBERY_STREET,
+  "ROBBERY_RESIDENCE": layers.ROBBERY_RESIDENCE,
+  "ROBBERY_COMMERCIAL": layers.ROBBERY_COMMERCIAL,
+  "ROBBERY_CARJACKING": layers.ROBBERY_CARJACKING,
   "RAPE": layers.RAPE
 };
 
 L.control.layers(null, overlays).addTo(myMap);
+
 
 // Adding tile layer
 L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}", {
@@ -51,94 +52,94 @@ L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
   accessToken: API_KEY
 }).addTo(myMap);
 
-//CIRCLES for crime
+// data circles for crime
 var crimeLink = "/api/v1.0/baltimore_crime";
 d3.json(crimeLink, function(data){
   
-  for (var i = 0; i < data.length; i++) {
+      for (var i = 0; i < data.length; i++) {
 
-    // Conditionals for earthquake magnitude colors:
-    var color = "";
-    if (data[i].Description == "SHOOTING") {
-      color = "purple";
-    }
-    else if (data[i].Description == "AGG. ASSAULT") {
-      color = "red";
-    }
-    else if (data[i].Description == "HOMICIDE") {
-      color = "black";
-    }
-    else if (data[i].Description == "COMMON ASSAULT") {
-      color = "yellow";
-    }
-    else if (data[i].Description == "ROBBERY - STREET") {
-      color = "blue";
-    }
-    else if (data[i].Description == "RAPE") {
-      color = "orange";
-    }
-    else if (data[i].Description == "ROBBERY - RESIDENCE") {
-      color = "cyan";
-    }
-    else if (data[i].Description == "ROBBERY - COMMERCIAL") {
-      color = "coral";
-    }
-    else if (data[i].Description == "ROBBERY - CARJACKING") {
-      color = "white";
-    }
+        // Conditionals for crime type colors:
+        var color = "";
+        if (data[i].Description == "SHOOTING") {
+          color = "yellow";
+        }
+        else if (data[i].Description == "AGG. ASSAULT") {
+          color = "white";
+        }
+        else if (data[i].Description == "HOMICIDE") {
+          color = "black";
+        }
+        else if (data[i].Description == "COMMON ASSAULT") {
+          color = "purple";
+        }
+        else if (data[i].Description == "ROBBERY - STREET") {
+          color = "blue";
+        }
+        else if (data[i].Description == "RAPE") {
+          color = "orange";
+        }
+        else if (data[i].Description == "ROBBERY - RESIDENCE") {
+          color = "cyan";
+        }
+        else if (data[i].Description == "ROBBERY - COMMERCIAL") {
+          color = "coral";
+        }
+        else if (data[i].Description == "ROBBERY - CARJACKING") {
+          color = "green";
+        }
 
-    // Layer dependency
-    // Initialize crime type description
-    var crime_status;
+        // Layer dependency
+        // Initialize crime type description
+        var crime_status;
 
-    if (data[i].Description == "SHOOTING") {
-      crime_status = "SHOOTING";
-    }
-    else if (data[i].Description == "AGG. ASSAULT") {
-      crime_status = "AGGRAVATED ASSAULT";
-    }
-    else if (data[i].Description == "HOMICIDE") {
-      crime_status = "HOMICIDE";
-    }
-    else if (data[i].Description == "COMMON ASSAULT") {
-      crime_status = "COMMON ASSAULT";
-    }
-    else if (data[i].Description == "ROBBERY - STREET") {
-      crime_status = "ROBBERY STREET";
-    }
-    else if (data[i].Description == "RAPE") {
-      crime_status = "RAPE";
-    }
-    else if (data[i].Description == "ROBBERY - RESIDENCE") {
-      crime_status = "ROBBERY RESIDENCE";
-    }
-    else if (data[i].Description == "ROBBERY - COMMERCIAL") {
-      crime_status = "ROBBERY COMMERCIAL";
-    }
-    else if (data[i].Description == "ROBBERY - CARJACKING") {
-      crime_status = "ROBBERY CARJACKING";
-    }
+        if (data[i].Description == "SHOOTING") {
+          crime_status = "SHOOTING";
+        }
+        else if (data[i].Description == "AGG. ASSAULT") {
+          crime_status = "AGGRAVATED_ASSAULT";
+        }
+        else if (data[i].Description == "HOMICIDE") {
+          crime_status = "HOMICIDE";
+        }
+        else if (data[i].Description == "COMMON ASSAULT") {
+          crime_status = "COMMON_ASSAULT";
+        }
+        else if (data[i].Description == "ROBBERY - STREET") {
+          crime_status = "ROBBERY_STREET";
+        }
+        else if (data[i].Description == "RAPE") {
+          crime_status = "RAPE";
+        }
+        else if (data[i].Description == "ROBBERY - RESIDENCE") {
+          crime_status = "ROBBERY_RESIDENCE";
+        }
+        else if (data[i].Description == "ROBBERY - COMMERCIAL") {
+          crime_status = "ROBBERY_COMMERCIAL";
+        }
+        else if (data[i].Description == "ROBBERY - CARJACKING") {
+          crime_status = "ROBBERY_CARJACKING";
+        }
 
-    
-    // Add circles to map
-    // try{
-    //   var crime_circle = L.circle([data[i].Exact_Location.slice(1,8),data[i].Exact_Location.slice(15,24)], 
-      
-    //   {
-    //     color: color,
-    //     opacity: 0.04,
-    //     fillOpacity: 0.04,
-    //     fillColor: color,
-    //     // Adjust radius
-    //     radius: 50
-    //   }).bindPopup("<h1>" + data[i].Neighborhood + "</h1> <hr> <h3>Crime: " + data[i].Description + "</h3>").addTo(myMap);
-    //   crime_circle.addTo(layers[crime_status]);
-    // }
-    // catch (err){
-    // }
-}
+        // Add circles to map
+        try{
+          var crime_circle = L.circle([data[i].Exact_Location.slice(1,8),data[i].Exact_Location.slice(15,24)], 
+          
+          {
+            color: color,
+            opacity: 0.20,
+            fillOpacity: 0.20,
+            fillColor: color,
+            // Adjust radius
+            radius: 10
+          }).bindPopup("<h1>" + data[i].Neighborhood + "</h1> <hr> <h3>Crime: " + data[i].Description + "</h3>").addTo(myMap);
+          crime_circle.addTo(layers[crime_status]);
+        }
+        catch (err){
+        }
+    }
 
 });
+
 
 
 // Link to GeoJSON
@@ -194,7 +195,7 @@ d3.json(APILink, function(data) {
     var labels = [];
 
     // Add min & max
-    var legendInfo = "<h1>Housing Price per County</h1>" +
+    var legendInfo = "<h1>Housing Price per Neighborhood</h1>" +
       "<div class=\"labels\">" +
         "<div class=\"min\">" + limits[0] + "</div>" +
         "<div class=\"max\">" + limits[limits.length - 1] + "</div>" +
